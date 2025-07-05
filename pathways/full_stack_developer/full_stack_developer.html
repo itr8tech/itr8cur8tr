@@ -1,0 +1,2109 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="author" content="allanhaggett">
+  <meta name="modified-by" content="itr8tech">
+  <meta name="description" content="Good links to all parts of the stack, even though that&#039;s a ridiculously large area. Bump.">
+  <meta name="generator" content="Curator Extension">
+  <meta name="created" content="2025-05-04T20:53:16.332Z">
+  <meta name="last-updated" content="2025-07-05T04:59:16.776Z">
+  <meta name="version" content="46ecqq-2025-07-05">
+  <title>Full Stack Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles for Curator pathways */
+/* Based on existing styles with Bootstrap 5.3 and Font Awesome 6 */
+
+.moodlecurator {
+    font-size: 1rem;
+    --gov-primary-blue: #234075;
+    --gov-primary-yellow: #e3a82b;
+    --sagegreen: #bfd5cf;
+    --sagedark: #29735E;
+    --bluegreen: #2F6173;
+}
+
+.moodlecurator .bg-blue {
+    background-color: var(--gov-primary-blue);
+}
+
+.moodlecurator .bg-sagegreen {
+    background-color: var(--sagegreen);
+}
+
+.moodlecurator .bg-sagedark {
+    background-color: var(--sagedark);
+}
+
+.moodlecurator .bg-bluegreen {
+    background-color: var(--bluegreen);
+}
+
+.moodlecurator .border-blue {
+    border-width: 2px;
+    border-color: var(--gov-primary-blue);
+    border-style: solid;
+}
+
+.moodlecurator .border-bluegreen {
+    border-width: .125rem;
+    border-color: var(--bluegreen);
+    border-style: solid;
+}
+
+.moodlecurator .border-sagedark {
+    border-width: .125rem;
+    border-color: var(--sagedark);
+    border-style: solid;
+}
+
+.moodlecurator .border-sagegreen {
+    border-width: .125rem;
+    border-color: var(--sagegreen);
+    border-style: solid;
+}
+
+.moodlecurator .text-sagedark {
+    color: var(--sagedark) !important;
+}
+
+.moodlecurator .text-bluegreen {
+    color: var(--bluegreen) !important;
+}
+
+.moodlecurator .btn-primary {
+    background-color: var(--gov-primary-blue);
+    border-color: var(--gov-primary-blue);
+}
+
+.moodlecurator .btn-primary:hover {
+    background-color: #4f6691;
+    border-color: #4f6691;
+}
+
+.moodlecurator blockquote {
+    border-left: 3px solid #333;
+    margin: 1em;
+    padding-left: 1em;
+}
+
+.moodlecurator p+ul,
+.moodlecurator p+ol {
+    margin-top: -0.75rem;
+}
+
+.moodlecurator .bg-white {
+    background-color: #fff !important;
+}
+
+.moodlecurator .mr-1,
+.moodlecurator .mx-1 {
+    margin-right: 0.25rem !important;
+    padding-right: 0 !important;
+}
+
+.moodlecurator .object-fit-contain {
+    object-fit: contain;
+}
+
+.moodlecurator .header {
+    background-image: linear-gradient(135deg, #4a6fc0 0%, #2F6173 50%, #357385 100%);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+    background-color: var(--gov-secondary-blue);
+}
+
+.moodlecurator .header.custom-header {
+    background-image: var(--custom-header-image);
+}
+
+.activity-container {
+    border: 1px solid #dee2e6;
+    overflow: hidden;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.activity-icon-container {
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.activity-badge {
+    background-color: var(--gov-primary-blue);
+    color: white;
+}
+
+.curatorcontext {
+    padding: 0.5rem 0;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+details.step-container {
+    margin-bottom: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    overflow: hidden;
+}
+
+details.step-container summary {
+    padding: 0.75rem 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+details.step-container summary::-webkit-details-marker,
+details.step-container summary::marker {
+    display: none;
+}
+
+details.step-container .caret-icon {
+    transition: transform 0.2s;
+}
+
+details.step-container[open] .caret-icon {
+    transform: rotate(90deg);
+}
+
+details.step-container .summary-content {
+    flex: 1;
+}
+
+details.step-container .step-content {
+    padding: 1rem;
+}
+
+.step-objective {
+    background-color: #f8f9fa;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.step-summary {
+    font-size: 0.9rem;
+    max-width: 95%;
+    margin-top: 0.4rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.pause-reflect-section {
+    background-color: #f8f9fa;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.pause-reflect-section h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.pause-reflect-content {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.control-bar {
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    background-color: white;
+}
+
+.control-bar.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    animation: slideDown 0.3s;
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+.controls-spacer {
+    display: none;
+    height: 120px;
+}
+
+.progress-container {
+    background-color: transparent;
+}
+
+.control-bar .progress-container {
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.progress {
+    height: 24px;
+    border-radius: 12px;
+    background-color: #e9ecef;
+    overflow: hidden;
+}
+
+.control-bar .progress {
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.progress-bar {
+    background-color: var(--sagedark);
+    transition: width 0.5s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) inset;
+}
+
+.progress-text {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.progress-container h5 {
+    color: var(--sagedark);
+    font-weight: 600;
+}
+
+.progress-container .badge {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 20px;
+}
+
+.search-highlight {
+    background-color: rgba(255, 193, 7, 0.45);
+    border-radius: 0.25rem;
+    padding: 0.125rem 0;
+    outline: 1px solid #d39e00;
+}
+
+.text-muted, .text-muted small {
+    color: #5a6268 !important;
+}
+
+.badge.launched-badge {
+    color: white;
+    margin-left: 0.25rem;
+}
+
+.launched-badge.d-none {
+    display: none !important;
+}
+
+#scrollTopBtn {
+    margin-left: 0.5rem;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#scrollTopBtn.d-none {
+    display: none !important;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid #dee2e6;
+    overflow-x: auto;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+code {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.875em;
+    color: #d63384;
+    background-color: #f8f9fa;
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    word-wrap: break-word;
+}
+
+pre code {
+    color: inherit;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.moodlecurator table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .moodlecurator table {
+        display: table;
+    }
+}
+
+.moodlecurator table th,
+.moodlecurator table td {
+    padding: 0.5rem;
+    vertical-align: top;
+    border: 1px solid #dee2e6;
+}
+
+.moodlecurator table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+    text-align: left;
+    border-bottom-width: 2px;
+}
+
+.moodlecurator table tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.moodlecurator ul,
+.moodlecurator ol {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.moodlecurator ul {
+    list-style-type: disc;
+}
+
+.moodlecurator ol {
+    list-style-type: decimal;
+}
+
+.moodlecurator li {
+    margin-bottom: 0.25rem;
+}
+
+.moodlecurator li > ul,
+.moodlecurator li > ol {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.moodlecurator hr {
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.moodlecurator img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.375rem;
+    margin: 1rem 0;
+}
+
+#darkModeToggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1040;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border: 2px solid #dee2e6;
+    transition: all 0.3s ease;
+}
+
+#darkModeToggle:hover {
+    transform: scale(1.05);
+    background-color: #495057;
+    border-color: #ced4da;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .moodlecurator {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    border-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card-header {
+    background-color: #2d2d2d;
+    border-bottom-color: #3d3d3d;
+}
+
+body.dark-mode .card-body {
+    color: #e0e0e0;
+}
+
+body.dark-mode .step-container {
+    border-color: #2d2d2d;
+}
+
+body.dark-mode .step-container summary {
+    background-color: #1e1e1e;
+    border-bottom-color: #2d2d2d;
+}
+
+body.dark-mode .step-objective {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode .activity-container {
+    border-color: #2d2d2d;
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .step-summary {
+    color: #aaa;
+}
+
+body.dark-mode .control-bar {
+    background-color: #1e1e1e;
+    border-color: #2d2d2d;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+body.dark-mode .pause-reflect-section {
+    background-color: #1e1e1e !important;
+}
+
+body.dark-mode .progress {
+    background-color: #2d2d2d;
+}
+
+body.dark-mode .form-control {
+    background-color: #2d2d2d;
+    border-color: #3d3d3d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #aaa;
+}
+
+body.dark-mode .btn-outline-secondary {
+    color: #ccc;
+    border-color: #3d3d3d;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+body.dark-mode .text-muted,
+body.dark-mode .text-muted small {
+    color: #adb5bd !important;
+}
+
+body.dark-mode a {
+    color: #8ab4f8;
+}
+
+body.dark-mode a:hover {
+    color: #aecbfa;
+}
+
+body.dark-mode .badge.bg-blue {
+    background-color: #3d5a99 !important;
+}
+
+body.dark-mode .badge.bg-sagedark {
+    background-color: #2c8c6c !important;
+}
+
+body.dark-mode .badge.bg-bluegreen {
+    background-color: #357385 !important;
+}
+
+body.dark-mode blockquote {
+    border-left-color: #4d4d4d;
+    background-color: #252525;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+body.dark-mode .bg-warning-subtle {
+    background-color: #332701 !important;
+    color: #e0e0e0;
+}
+
+body.dark-mode details summary {
+    color: #e0e0e0;
+}
+
+body.dark-mode details summary.text-black {
+    color: #ffc107 !important;
+}
+
+body.dark-mode .search-highlight {
+    background-color: rgba(255, 193, 7, 0.25);
+    outline-color: #b38600;
+}
+
+body.dark-mode :focus-visible {
+    outline-color: #8ab4f8 !important;
+    box-shadow: 0 0 0 0.2rem rgba(138, 180, 248, 0.5) !important;
+}
+
+body.dark-mode #darkModeToggle {
+    border-color: #495057;
+}
+
+body.dark-mode #darkModeToggle:hover {
+    background-color: #212529;
+    border-color: #adb5bd;
+}
+
+.prose {
+    max-width: 65ch;
+    line-height: 1.6;
+}
+
+.prose-sm {
+    max-width: 45ch;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.prose-lg {
+    max-width: 75ch;
+    line-height: 1.7;
+}
+
+.broken-link-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    display: inline-block;
+    font-size: 0.875rem;
+    vertical-align: middle;
+}
+
+body.dark-mode .prose,
+body.dark-mode .prose-sm,
+body.dark-mode .prose-lg {
+    color: #e0e0e0;
+}
+
+body.dark-mode .broken-link-warning {
+    color: #ffda6a;
+    background-color: #332701;
+    border-color: #664d03;
+}
+
+body.dark-mode .moodlecurator pre {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+body.dark-mode .moodlecurator code {
+    background-color: #2a2a2a;
+    color: #ff77aa;
+}
+
+body.dark-mode .moodlecurator table th {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+body.dark-mode .moodlecurator table td {
+    border-color: #444;
+}
+
+body.dark-mode .moodlecurator table tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .moodlecurator hr {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode img:not([src*=".svg"]) {
+    filter: brightness(0.9) contrast(1.1);
+}
+  </style>
+  <script>
+    // Track launched links in localStorage
+    const LAUNCHED_LINKS_KEY = 'curator_launched_links_full_stack_developer';
+    
+    // Load previously launched links from localStorage
+    function loadLaunchedLinks() {
+      try {
+        const stored = localStorage.getItem(LAUNCHED_LINKS_KEY);
+        return stored ? JSON.parse(stored) : {};
+      } catch (e) {
+        console.error('Error loading launched links:', e);
+        return {};
+      }
+    }
+    
+    // Save launched links to localStorage
+    function saveLaunchedLinks(links) {
+      try {
+        localStorage.setItem(LAUNCHED_LINKS_KEY, JSON.stringify(links));
+      } catch (e) {
+        console.error('Error saving launched links:', e);
+      }
+    }
+    
+    // Count total required bookmarks and launched required bookmarks
+    function updateProgressBar() {
+      const links = loadLaunchedLinks();
+      let totalRequired = 0;
+      let completedRequired = 0;
+      
+      document.querySelectorAll('.activity-container').forEach(container => {
+        const badge = container.querySelector('.activity-badge');
+        if (badge && badge.textContent.trim() === 'Required') {
+          totalRequired++;
+          const launchBtn = container.querySelector('.launch-btn');
+          if (launchBtn && links[launchBtn.getAttribute('href')]) {
+            completedRequired++;
+          }
+        }
+      });
+      
+      const progressBar = document.getElementById('progress-bar');
+      const progressCounter = document.getElementById('progress-counter');
+      const progressPercentage = document.getElementById('progress-percentage');
+      const progressContainer = document.querySelector('.progress-container');
+      
+      if (progressBar && progressCounter && progressPercentage && progressContainer) {
+        const percentage = totalRequired > 0 ? Math.round((completedRequired / totalRequired) * 100) : 0;
+        
+        progressBar.style.width = percentage + '%';
+        progressBar.setAttribute('aria-valuenow', percentage);
+        progressCounter.textContent = completedRequired + ' of ' + totalRequired + ' required';
+        progressPercentage.textContent = percentage + '%';
+        
+        progressBar.className = 'progress-bar';
+        if (percentage === 100) {
+          progressBar.classList.add('bg-success');
+          progressPercentage.className = 'badge bg-success';
+        } else if (percentage >= 66) {
+          progressBar.classList.add('bg-sagedark');
+          progressPercentage.className = 'badge bg-sagedark';
+        } else if (percentage >= 33) {
+          progressBar.classList.add('bg-primary');
+          progressPercentage.className = 'badge bg-primary';
+        } else {
+          progressBar.classList.add('bg-bluegreen');
+          progressPercentage.className = 'badge bg-bluegreen';
+        }
+        
+        if (totalRequired === 0) {
+          progressContainer.style.display = 'none';
+        } else {
+          progressContainer.style.display = 'block';
+        }
+      }
+    }
+    
+    // Mark a link as launched
+    function markAsLaunched(url) {
+      const links = loadLaunchedLinks();
+      links[url] = Date.now();
+      saveLaunchedLinks(links);
+      updateLaunchedBadges(url);
+      updateProgressBar();
+    }
+    
+    // Update the UI to show which links have been launched
+    function updateLaunchedBadges(justLaunchedUrl) {
+      const links = loadLaunchedLinks();
+      
+      document.querySelectorAll('.launch-btn').forEach(function(btn) {
+        const url = btn.getAttribute('href');
+        const container = btn.closest('.activity-container');
+        const badge = container.querySelector('.launched-badge');
+        
+        if (links[url]) {
+          badge.classList.remove('d-none');
+          
+          if (justLaunchedUrl && url === justLaunchedUrl) {
+            setTimeout(function() { btn.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 100);
+          }
+        }
+      });
+    }
+    
+    function expandAll() {
+      var stepDetails = document.querySelectorAll('details.step-container');
+      for (var i = 0; i < stepDetails.length; i++) {
+        stepDetails[i].setAttribute('open', 'open');
+      }
+    }
+    
+    function collapseAll() {
+      var stepDetails = document.querySelectorAll('details.step-container');
+      for (var i = 0; i < stepDetails.length; i++) {
+        stepDetails[i].removeAttribute('open');
+      }
+    }
+    
+    function searchPathway() {
+      const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+      
+      if (!searchTerm) {
+        resetSearch();
+        return;
+      }
+      
+      expandAll();
+      
+      document.querySelectorAll('.pause-reflect-section').forEach(function(section) {
+        section.style.display = 'none';
+      });
+      
+      const activities = document.querySelectorAll('.activity');
+      let matchFound = false;
+      let matchCount = 0;
+      
+      activities.forEach(function(activity) {
+        const titleElement = activity.querySelector('h4') || activity.querySelector('h3');
+        const title = titleElement && titleElement.textContent ? titleElement.textContent.toLowerCase() : '';
+        const descElement = activity.querySelector('h4 + div') || activity.querySelector('h3 + div');
+        const description = descElement && descElement.textContent ? descElement.textContent.toLowerCase() : '';
+        const contextElement = activity.querySelector('.curatorcontext blockquote');
+        const context = contextElement ? contextElement.textContent.toLowerCase() : '';
+        
+        const hasMatch = title.indexOf(searchTerm) !== -1 ||
+                        description.indexOf(searchTerm) !== -1 ||
+                        (context && context.indexOf(searchTerm) !== -1);
+        
+        if (hasMatch) {
+          activity.style.display = 'block';
+          matchFound = true;
+          matchCount++;
+          
+          const parentStep = activity.closest('details.step-container');
+          if (parentStep) {
+            parentStep.setAttribute('open', 'open');
+          }
+          
+          activity.setAttribute('data-search-result', 'true');
+          activity.setAttribute('aria-label', 'Search result ' + matchCount + ' for "' + searchTerm + '"');
+          
+          highlightMatches(activity, searchTerm);
+        } else {
+          activity.style.display = 'none';
+          activity.removeAttribute('data-search-result');
+          activity.removeAttribute('aria-label');
+        }
+      });
+      
+      const searchResultsMessage = document.getElementById('searchResultsMessage');
+      if (searchResultsMessage) {
+        if (!matchFound) {
+          searchResultsMessage.textContent = 'No matching bookmarks found.';
+        } else {
+          searchResultsMessage.textContent = 'Found ' + matchCount + ' matching bookmark' + (matchCount !== 1 ? 's' : '') + '.';
+        }
+      }
+      
+      if (matchFound) {
+        const firstResult = document.querySelector('.activity[data-search-result="true"]');
+        if (firstResult) {
+          firstResult.tabIndex = -1;
+          firstResult.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          setTimeout(function() { firstResult.focus(); }, 300);
+        }
+      }
+    }
+    
+    function highlightMatches(element, searchTerm) {
+      const titles = element.querySelectorAll('h4, h3');
+      const descriptions = element.querySelectorAll('h4 + div, h3 + div');
+      const contexts = element.querySelectorAll('.curatorcontext blockquote');
+      
+      [titles, descriptions, contexts].forEach(function(nodeList) {
+        if (!nodeList) return;
+        
+        nodeList.forEach(function(node) {
+          if (node && node.textContent.toLowerCase().indexOf(searchTerm) !== -1) {
+            node.classList.add('search-highlight');
+          } else if (node) {
+            node.classList.remove('search-highlight');
+          }
+        });
+      });
+    }
+    
+    function resetSearch() {
+      document.querySelectorAll('.search-highlight').forEach(function(el) {
+        el.classList.remove('search-highlight');
+      });
+      
+      document.querySelectorAll('.activity').forEach(function(activity) {
+        activity.style.display = 'block';
+        activity.removeAttribute('data-search-result');
+        activity.removeAttribute('aria-label');
+        activity.removeAttribute('tabindex');
+      });
+      
+      document.querySelectorAll('.pause-reflect-section').forEach(function(section) {
+        section.style.display = 'block';
+      });
+      
+      const searchResultsMessage = document.getElementById('searchResultsMessage');
+      if (searchResultsMessage) {
+        searchResultsMessage.textContent = '';
+        searchResultsMessage.setAttribute('aria-live', 'polite');
+        setTimeout(function() {
+          searchResultsMessage.textContent = 'Search reset. All items are now visible.';
+          setTimeout(function() { searchResultsMessage.textContent = ''; }, 2000);
+        }, 100);
+      }
+      
+      if (document.getElementById('searchInput').value.trim() === '') {
+        collapseAll();
+        document.getElementById('searchInput').focus();
+      }
+    }
+    
+    // Dark mode functionality
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+      const isDarkMode = document.body.classList.contains('dark-mode');
+      localStorage.setItem('curator_dark_mode', isDarkMode ? 'true' : 'false');
+      updateDarkModeToggleIcon(isDarkMode);
+    }
+    
+    function updateDarkModeToggleIcon(isDarkMode) {
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      if (darkModeToggle) {
+        darkModeToggle.innerHTML = isDarkMode ?
+          '<i class="fa fa-sun" aria-hidden="true"></i>' :
+          '<i class="fa fa-moon" aria-hidden="true"></i>';
+        darkModeToggle.setAttribute('aria-label', isDarkMode ? 'Switch to light mode' : 'Switch to dark mode');
+        darkModeToggle.title = isDarkMode ? 'Switch to light mode' : 'Switch to dark mode';
+      }
+    }
+    
+    function initDarkMode() {
+      const savedDarkMode = localStorage.getItem('curator_dark_mode');
+      const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const shouldBeDark = savedDarkMode === 'true' || (savedDarkMode === null && prefersDarkMode);
+      
+      if (shouldBeDark) {
+        document.body.classList.add('dark-mode');
+      } else {
+        document.body.classList.remove('dark-mode');
+      }
+      
+      updateDarkModeToggleIcon(shouldBeDark);
+      
+      const darkModeToggle = document.createElement('button');
+      darkModeToggle.id = 'darkModeToggle';
+      darkModeToggle.className = 'btn';
+      darkModeToggle.innerHTML = shouldBeDark ?
+        '<i class="fa fa-sun" aria-hidden="true"></i>' :
+        '<i class="fa fa-moon" aria-hidden="true"></i>';
+      darkModeToggle.setAttribute('aria-label', shouldBeDark ? 'Switch to light mode' : 'Switch to dark mode');
+      darkModeToggle.title = shouldBeDark ? 'Switch to light mode' : 'Switch to dark mode';
+      darkModeToggle.addEventListener('click', toggleDarkMode);
+      
+      document.body.appendChild(darkModeToggle);
+      
+      if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+          if (localStorage.getItem('curator_dark_mode') === null) {
+            const shouldBeDark = e.matches;
+            if (shouldBeDark) {
+              document.body.classList.add('dark-mode');
+            } else {
+              document.body.classList.remove('dark-mode');
+            }
+            updateDarkModeToggleIcon(shouldBeDark);
+          }
+        });
+      }
+    }
+    
+    // Set up event listeners for launch buttons
+    function setupLaunchTracking() {
+      document.querySelectorAll('.launch-btn').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          const url = this.getAttribute('href');
+          markAsLaunched(url);
+        });
+      });
+    }
+    
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+    
+    // Add event listeners when the document is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchInput = document.getElementById('searchInput');
+      const resetButton = document.getElementById('resetSearchButton');
+      const controlBar = document.getElementById('control-bar');
+      const controlsSpacer = document.getElementById('controls-spacer');
+      
+      initDarkMode();
+      
+      let controlBarPosition;
+      
+      setTimeout(() => {
+        if (controlBar) {
+          controlBarPosition = controlBar.offsetTop;
+        }
+      }, 100);
+      
+      function handleScroll() {
+        if (!controlBar || !controlsSpacer || controlBarPosition === undefined) return;
+        
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        
+        if (window.pageYOffset > controlBarPosition) {
+          controlBar.classList.add('fixed-top');
+          controlsSpacer.style.display = 'block';
+          
+          if (scrollTopBtn) {
+            scrollTopBtn.classList.remove('d-none');
+          }
+        } else {
+          controlBar.classList.remove('fixed-top');
+          controlsSpacer.style.display = 'none';
+          
+          if (scrollTopBtn) {
+            scrollTopBtn.classList.add('d-none');
+          }
+        }
+      }
+      
+      function toggleResetButton() {
+        if (searchInput.value.trim() === '') {
+          resetButton.style.display = 'none';
+        } else {
+          resetButton.style.display = 'block';
+        }
+      }
+      
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      
+      searchInput.addEventListener('input', function() {
+        toggleResetButton();
+        if (this.value.trim() === '') {
+          resetSearch();
+        }
+      });
+      
+      searchInput.addEventListener('keyup', function(event) {
+        if (event.key === 'Enter') {
+          searchPathway();
+        }
+      });
+      
+      document.getElementById('searchButton').addEventListener('click', searchPathway);
+      
+      resetButton.addEventListener('click', function() {
+        searchInput.value = '';
+        resetSearch();
+        toggleResetButton();
+      });
+      
+      setupLaunchTracking();
+      updateLaunchedBadges();
+      
+      setTimeout(function() {
+        updateProgressBar();
+        updateLaunchedBadges();
+      }, 200);
+      
+      handleScroll();
+    });
+  </script>
+</head>
+<body>
+<div class="moodlecurator container py-4">
+  <header class="mb-4">
+    <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+    
+    <div class="header custom-header mb-3 rounded-3 d-flex align-items-end" style="--custom-header-image: url('data:image/jpeg;base64,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');">
+      <div class="px-3 py-2 bg-dark bg-opacity-75 text-white rounded-bottom w-100">
+        <small>Curated pathway</small>
+        <h1 class="h2 mb-1 mt-0">Full Stack Developer</h1>
+      </div>
+    </div>
+    <div>
+      <div class="lead mb-4 fs-4 prose prose-lg"><p>Good links to all parts of the stack, even though that's a ridiculously large area. Bump.</p></div>
+    </div>
+    <div class="text-muted small mb-3">
+      Last updated: July 4, 2025 at 09:59 PM | 
+      Version: 46ecqq-2025-07-05
+    </div>
+    
+    <details class="mb-4 p-3 bg-warning-subtle rounded-3">
+      <summary role="button" aria-expanded="false" tabindex="0" class="text-black">
+        <i class="fa fa-exclamation-triangle me-2" aria-hidden="true"></i> Before you proceed...
+      </summary>
+      <div class="p-3 prose-lg" id="content-warning-text">
+        <h3 id="content-warning-heading" class="h6 mb-2">Content Warning</h3>
+        <div class="prose"><p>!!!WARNING: Please basically ignore this pathway. This is an ad hoc development pathway that I've been using to quickly test this system. The links contained within work but many times the "curator context" is comedically incomplete or wrong. </p></div>
+      </div>
+    </details>
+  </header>
+  
+  <!-- Control bar container -->
+  <div id="control-bar-container" class="mb-4">
+    <div id="controls-spacer" class="controls-spacer"></div>
+    
+    <div id="control-bar" class="control-bar w-100">
+      <div class="container">
+        <div class="progress-container py-2 mb-2">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+              <h6 id="progress-heading" class="mb-0 me-2">Progress:</h6>
+              <div class="progress" style="width: 200px; height: 10px;">
+                <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%"
+                     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Pathway completion progress"></div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <span id="progress-counter" class="text-muted small me-2">0 of 0 required</span>
+              <span id="progress-percentage" class="badge bg-sagedark" aria-live="polite">0%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <div class="input-group" style="max-width: 400px;" role="search">
+              <label for="searchInput" class="visually-hidden">Search pathway content</label>
+              <input type="text" id="searchInput" class="form-control" placeholder="Keyword search..."
+                aria-label="Search pathway content" aria-describedby="searchResultsMessage">
+              <button id="resetSearchButton" class="btn btn-outline-secondary" type="button" style="display: none;"
+                aria-label="Clear search">
+                <i class="fa fa-times" aria-hidden="true"></i> Reset
+              </button>
+              <button id="searchButton" class="btn btn-outline-secondary" type="button"
+                aria-label="Search pathway">
+                <i class="fa fa-search" aria-hidden="true"></i> Search
+              </button>
+            </div>
+            <div id="searchResultsMessage" class="text-muted small mt-1" aria-live="polite"></div>
+          </div>
+          <div class="btn-group" role="group" aria-label="Pathway navigation controls">
+            <button onclick="expandAll()" class="btn btn-outline-secondary" aria-label="Expand all steps">
+              Expand All
+            </button>
+            <button onclick="collapseAll()" class="btn btn-outline-secondary" aria-label="Collapse all steps">
+              Collapse All
+            </button>
+            <button id="scrollTopBtn" onclick="scrollToTop()" class="btn btn-outline-secondary d-none"
+              aria-label="Scroll to top">
+              <i class="fa fa-arrow-up" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <main id="main-content">
+    <details class="step-container" id="step-1">
+      <summary class="fw-semibold">
+        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <div class="summary-content">
+          <div class="d-flex justify-content-between align-items-start">
+            <div class="flex-grow-1">
+              <h3 class="h5 mb-0">Step 1: Back End</h3>
+              <div class="step-summary">Stuff for the backend from databases to ETL processes and basic OS stuff.</div>
+            </div>
+            <div class="ms-2 d-flex align-items-center">
+              <span class="badge bg-secondary me-1">0 Launched</span>
+              <span class="badge bg-light text-dark">7 Required</span>
+            </div>
+          </div>
+        </div>
+      </summary>
+      <div class="step-content">
+        <div class="step-objective"><p>Stuff for the backend from databases to ETL processes and basic OS stuff.</p></div>
+        
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">GitHub - bcgov/sso-keycloak</h4>
+                  <div class="mb-2"><p>Contribute to bcgov/sso-keycloak development by creating an account on GitHub.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>SSO DIY</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://github.com/bcgov/sso-keycloak#specifying-an-idp-to-bypass-the-keycloak-login-page" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-blue">
+                <i class="fa fa-user-group text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">How to Set Up Nginx, MariaDB, and PHP with Docker Compose</h4>
+                  <div class="mb-2"><p>This guide shows you how to set up your LEMP (Nginx, MariaDB, PHP) stack easily and quickly using Docker Compose.</p></div>
+                  
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-blue text-white ms-1">Participate</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://linuxiac.com/how-to-set-up-lemp-stack-with-docker-compose/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-blue">
+                <i class="fa fa-headphones text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Tutorial 0 - Get it RunningView</h4>
+                  <div class="mb-2"><p>Welcome to PostgREST! In this pre-tutorial we’re going to get things running so you can create your first simple API. PostgREST is a standalone web server which turns a PostgreSQL database into a RESTful API. It serves an API that is customized based on the structure of the underlying database.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Testing merging.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-blue text-white ms-1">Listen</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://postgrest.org/en/stable/tutorials/tut0.html" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Understanding GitHub Actions - GitHub Docs</h4>
+                  <div class="mb-2"><p>Learn the basics of GitHub Actions, including core concepts and essential terminology.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Should be in it's own step practivally.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://docs.github.com/en/actions/about-github-actions/understanding-github-actions" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">REST Client - Visual Studio Marketplace</h4>
+                  <div class="mb-2"><p>Extension for Visual Studio Code - REST Client for Visual Studio Code</p></div>
+                  
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">nginx</h4>
+                  <div class="mb-2"><p>nginx ("engine x") is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. Originally written by Igor Sysoev and distributed under the 2-clause BSD License. Enterprise distributions, commercial support and training are available from F5, Inc.</p></div>
+                  
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://nginx.org/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Azure AI Search-Retrieval-Augmented Generation | Microsoft Azure</h4>
+                  <div class="mb-2"><p>Azure AI Search, formerly Azure Cognitive Search, is knowledge retrieval system GenAI applications powered byretrieval-augmented generation (RAG). Deliver the best AI experience to every user, at any scale.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>We may get to use this so know what it is.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://azure.microsoft.com/en-us/products/ai-services/ai-search/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </details>
+    <details class="step-container" id="step-2">
+      <summary class="fw-semibold">
+        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <div class="summary-content">
+          <div class="d-flex justify-content-between align-items-start">
+            <div class="flex-grow-1">
+              <h3 class="h5 mb-0">Step 2: Front End</h3>
+              <div class="step-summary">All the client things. HTML, CSS, Javascript</div>
+            </div>
+            <div class="ms-2 d-flex align-items-center">
+              <span class="badge bg-secondary me-1">0 Launched</span>
+              <span class="badge bg-light text-dark">9 Required</span>
+            </div>
+          </div>
+        </div>
+      </summary>
+      <div class="step-content">
+        <div class="step-objective"><p>All the client things. HTML, CSS, Javascript</p></div>
+        
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-blue">
+                <i class="fa fa-user-group text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Flexbox Froggy - A game for learning CSS flexbox</h4>
+                  <div class="mb-2"><p>Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the lilypad on the right by using the justify-content property, which aligns items horizontally.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Get good at understanding this and the world is your oyster.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-blue text-white ms-1">Participate</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-bluegreen">
+                <i class="fa fa-play text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Tailwind Labs - YouTube</h4>
+                  <div class="mb-2"><p>We're a small team of developers and designers spread out all across the world, building tools that help other developers build better user interfaces. We cr...</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Watch this!</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-bluegreen text-white ms-1">Watch</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-bluegreen">
+                <i class="fa fa-play text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">10 ways to speed up web font loading</h4>
+                  <div class="mb-2"><p>Font loading can slow page load times significantly. This article shows you how to reduce the impact.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Performance is king.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-bluegreen text-white ms-1">Watch</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://byteofdev.com/posts/speed-up-font-loading/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">SimplePie Documentation: Documentation</h4>
+                  <div class="mb-2"><p>A super-fast, easy-to-use, RSS and Atom parser written in PHP.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>More tetsing</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://www.simplepie.org/wiki/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">&lt;/&gt; htmx - high power tools for html</h4>
+                  <div class="mb-2"><p>htmx gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext</p><p>    htmx is small (~14k min.gz’d), dependency-free, extendable, IE11 compatible & has reduced code base sizes by 67% when compared with react</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Fun stuff.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://htmx.org/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Testing dead link</h4>
+                  <div class="mb-2"><p>This link should be dead.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Test</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://web-bdec76-prod.apps.silver.devops.gov.bc.ca/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">systemfontstack</h4>
+                  <div class="mb-2"><p>Webfonts were great when most computers only had a handful of good fonts pre-installed. Thanks to font creation and buying by Apple, Microsoft, Google, and other folks, most computers have good—no, great—fonts installed, and they're a great option if you want to not load a separate font.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>BC Sans is cool and all...</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://systemfontstack.com/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">A Beginner&#039;s Guide to HTML, CSS, and JavaScript | HackerNoon</h4>
+                  <div class="mb-2"><p>Unlock Your Web Development Potential with this Beginner's Guide to HTML, CSS, and JavaScript! Learn the Fundamentals and Create Stunning Websites.</p></div>
+                  
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Semantics - MDN Web Docs Glossary: Definitions of Web-related terms | MDN</h4>
+                  <div class="mb-2"><p>In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Learn this stuff deeply. Knowing how to structure HTML well will serve you well.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </details>
+    <details class="step-container" id="step-3">
+      <summary class="fw-semibold">
+        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <div class="summary-content">
+          <div class="d-flex justify-content-between align-items-start">
+            <div class="flex-grow-1">
+              <h3 class="h5 mb-0">Step 3: Security</h3>
+              <div class="step-summary">Stay safe. Put security first.</div>
+            </div>
+            <div class="ms-2 d-flex align-items-center">
+              <span class="badge bg-secondary me-1">0 Launched</span>
+              <span class="badge bg-light text-dark">3 Required</span>
+            </div>
+          </div>
+        </div>
+      </summary>
+      <div class="step-content">
+        <div class="step-objective"><p>Stay safe. Put security first.</p></div>
+        
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Diceware Passphrase Home</h4>
+                  <div class="mb-2"><p>This page offers a better way to create a strong, yet easy to remember, passphrase for use with encryption and security programs. Weak passwords and passphrases are one of the most common flaws in computer security. Take a few minutes and learn how to do it right. The information presented here can be used by anyone. No background in cryptography or mathematics is required. Just follow the simple steps below.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Good tool.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://theworld.com/~reinhold/diceware.html" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">List of Emojis HEX/HTML Codes - DEV Community</h4>
+                  <div class="mb-2"><p>Animal Emoji             Animal Type             Unicode Hex            ... Tagged with webdev, emoji, hexcodes, html.</p></div>
+                  
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Privacy Decrypted #4: Understanding anonymity vs. privacy | Proton</h4>
+                  <div class="mb-2"><p>Anonymity is not the same thing as privacy, and confusing these two concepts can weaken your online security.</p></div>
+                  
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://proton.me/blog/anonymity-vs-privacy" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </details>
+    <details class="step-container" id="step-4">
+      <summary class="fw-semibold">
+        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <div class="summary-content">
+          <div class="d-flex justify-content-between align-items-start">
+            <div class="flex-grow-1">
+              <h3 class="h5 mb-0">Step 4: Misc</h3>
+              <div class="step-summary">Random links related to dev but not dev directly.</div>
+            </div>
+            <div class="ms-2 d-flex align-items-center">
+              <span class="badge bg-secondary me-1">0 Launched</span>
+              <span class="badge bg-light text-dark">6 Required</span>
+            </div>
+          </div>
+        </div>
+      </summary>
+      <div class="step-content">
+        <div class="step-objective"><p>Random links related to dev but not dev directly.</p></div>
+        
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">5 Principles of Exceptional Case Studies in UX Portfolios | UX Tools</h4>
+                  <div class="mb-2"><p>Principles to help you write unique and compelling UX Design case studies for your portfolio.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Because iut's good.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Archivematica: open-source digital preservation system</h4>
+                  <div class="mb-2"><p>Archivematica: open-source digital preservation system</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>It doesn't matter how good your system is for taking backups if you never try to restore from those backups.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://www.archivematica.org/en/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">WakaTime - Dashboards for developers</h4>
+                  <div class="mb-2"><p>Open source IDE plugins for programmers.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>You might be asked to track how much time you're spending on different projects.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://wakatime.com/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Linux: An Introduction to User Management - The New Stack</h4>
+                  <div class="mb-2"><p>Should you use useradd or adduser? This tutorial will teach you how to manage other users on your Linux machine.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Basics! Gotta learn it.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://thenewstack.io/linux-an-introduction-to-user-management/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Zotero | Your personal research assistant</h4>
+                  <div class="mb-2"><p>Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Might be cool I dunno 🤷</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://www.zotero.org/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Download Government Marks - Province of British Columbia</h4>
+                  <div class="mb-2"><p>Download provincial government marks (logos)</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>You're gonna need these.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/download-marks" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </details>
+    <details class="step-container" id="step-5">
+      <summary class="fw-semibold">
+        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <div class="summary-content">
+          <div class="d-flex justify-content-between align-items-start">
+            <div class="flex-grow-1">
+              <h3 class="h5 mb-0">Step 5: Platforms</h3>
+              <div class="step-summary">All the different platforms where courses are hosted.</div>
+            </div>
+            <div class="ms-2 d-flex align-items-center">
+              <span class="badge bg-secondary me-1">0 Launched</span>
+              <span class="badge bg-light text-dark">6 Required</span>
+            </div>
+          </div>
+        </div>
+      </summary>
+      <div class="step-content">
+        <div class="step-objective"><p>All the different platforms where courses are hosted.</p></div>
+        
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Just Ask! for Github organization access</h4>
+                  <div class="mb-2"><p>Just Ask! A github app to just ask for Github organization access</p></div>
+                  
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://just-ask-web-bdec76-prod.apps.silver.devops.gov.bc.ca/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">BC Developer Guide | A guide to application development for the B.C. government. | B.C. government DevHub</h4>
+                  <div class="mb-2"><p>The B.C. government DevHub is a place to access common technical documentation, community knowledge bases, code samples and APIs.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Do yourself a favor and know this stuff.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#ministry-specific-private-organizations-in-github-enterprise" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Common Hosted Single Sign-on (CSS)</h4>
+                  <div class="mb-2"><p>The request process workflow tool for the RedHat SSO Dev Exchange service</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>We use this for Moodle and it should be preferred solution for SSO.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://bcgov.github.io/sso-requests/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">PSA Learning System Homepage</h4>
+                  <div class="mb-2"><p>Main registration platform for courses.</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>It's not the only game in town.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://learning.gov.bc.ca/psc/CHIPSPLM/EMPLOYEE/ELM/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">Permalinks — Eleventy</h4>
+                  <div class="mb-2"><p>Permalinks — Eleventy</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Permalinks are more important than you might imagine.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://www.11ty.dev/docs/permalinks/" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mb-3">
+            <div class="activity-container d-flex">
+              <div class="activity-icon-container bg-sagedark">
+                <i class="fa fa-book text-white" aria-hidden="true"></i>
+              </div>
+              <div class="flex-grow-1 p-3">
+                <div class="activity">
+                  <h4 class="h6 mb-2">API Services Portal | API Directory</h4>
+                  <div class="mb-2"><p>BC Gov API Directory Find an API and request an API key to get started</p></div>
+                  <div class="curatorcontext"><blockquote class="mb-2"><p>Use these where you can.</p></blockquote></div>
+                  
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                      <span class="badge activity-badge">Required</span>
+                      <span class="badge bg-sagedark text-white ms-1">Read</span>
+                      <span class="badge bg-success launched-badge d-none">Launched</span>
+                    </div>
+                    <a href="https://api.gov.bc.ca/devportal/api-directory" target="_blank" rel="noopener noreferrer"
+                       class="btn btn-outline-primary btn-sm launch-btn">
+                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </details>
+  </main>
+  
+  <footer class="mt-5 pt-4 border-top text-muted small">
+    <div class="prose mb-3"><strong>Acknowledgments:</strong> <p>The Corporate Learning Branch would like to acknowledge the support we received from many of our colleagues and partners in multiple branches/ministries during the development of this learning resource. We also appreciate the invaluable comments we received during our engagement sessions.</p><p>In particular, our sincere thanks go out to colleagues and partners at the following entities:</p><p>* Policy & Legislation, BC Data Service, CITZ
+* Multiculturalism & Anti-Racism Branch, AG
+* PSA REDI, Policy and Employee Relations
+* SDPR Inclusion, Diversity and Cultural Safety (IDCS) & Anti-Racism 101 course
+* BIPOC Employee Resource Group
+* Indigenous Employees Network</p></div>
+    <p>Created by: allanhaggett</p>
+    <p>Modified by: itr8tech</p>
+    <p>Generated on: 2025-07-04</p>
+  </footer>
+</div>
+</body>
+</html>
