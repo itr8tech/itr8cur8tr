@@ -13,13 +13,23 @@ In particular, our sincere thanks go out to colleagues and partners at the follo
 * Indigenous Employees Network"
 "Created By","allanhaggett"
 "Created Date","2025-05-04T20:53:16.332Z"
-"Modified By","allanhaggett"
-"Version","46ecqq-2025-05-13"
-"Last Updated","2025-05-13T15:47:33.394Z"
-"Total Steps","5"
-"Total Bookmarks","31"
+"Modified By","itr8tech"
+"Version","ymqgn2-2025-07-05"
+"Last Updated","2025-07-05T05:26:54.777Z"
+"Total Steps","6"
+"Total Bookmarks","33"
 ""
 "Step","Title","URL","Description","Context","Type","Content Type","Sort Order"
+"Accessibility","A11Y Project","https://www.a11yproject.com","Learn the fundamentals and principles behind accessible design","Start here.","Required","Read","0"
+"Accessibility","Accessibility on Mozilla Developer Network (MDN)","https://developer.mozilla.org/en-US/docs/Web/Accessibility","Accessibility (often abbreviated to A11y — as in, ""a"", then 11 characters, and then ""y"") in web development means enabling as many people as possible to use websites, even when those people's abilities are limited in some way.
+
+For many people, technology makes things easier. For people with disabilities, technology makes things possible. Accessibility means developing content to be as accessible as possible, no matter an individual's physical and cognitive abilities and how they access the web.
+
+The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
+– (W3C - Accessibility)","A wonderful resource that will take you far.","Required","Read","1"
+"Security","Diceware Passphrase Home","https://theworld.com/~reinhold/diceware.html","This page offers a better way to create a strong, yet easy to remember, passphrase for use with encryption and security programs. Weak passwords and passphrases are one of the most common flaws in computer security. Take a few minutes and learn how to do it right. The information presented here can be used by anyone. No background in cryptography or mathematics is required. Just follow the simple steps below.","Good tool.","Required","Read","0"
+"Security","List of Emojis HEX/HTML Codes - DEV Community","https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma","Animal Emoji             Animal Type             Unicode Hex            ... Tagged with webdev, emoji, hexcodes, html.","","Required","Read","1"
+"Security","Privacy Decrypted #4: Understanding anonymity vs. privacy | Proton","https://proton.me/blog/anonymity-vs-privacy","Anonymity is not the same thing as privacy, and confusing these two concepts can weaken your online security.","","Required","Read","2"
 "Back End","GitHub - bcgov/sso-keycloak","https://github.com/bcgov/sso-keycloak#specifying-an-idp-to-bypass-the-keycloak-login-page","Contribute to bcgov/sso-keycloak development by creating an account on GitHub.","SSO DIY","Required","Read","0"
 "Back End","How to Set Up Nginx, MariaDB, and PHP with Docker Compose","https://linuxiac.com/how-to-set-up-lemp-stack-with-docker-compose/","This guide shows you how to set up your LEMP (Nginx, MariaDB, PHP) stack easily and quickly using Docker Compose.","","Required","Participate","1"
 "Back End","Tutorial 0 - Get it RunningView","https://postgrest.org/en/stable/tutorials/tut0.html","Welcome to PostgREST! In this pre-tutorial we’re going to get things running so you can create your first simple API. PostgREST is a standalone web server which turns a PostgreSQL database into a RESTful API. It serves an API that is customized based on the structure of the underlying database.","Testing merging.","Bonus","Listen","2"
@@ -38,9 +48,6 @@ In particular, our sincere thanks go out to colleagues and partners at the follo
 "Front End","systemfontstack","https://systemfontstack.com/","Webfonts were great when most computers only had a handful of good fonts pre-installed. Thanks to font creation and buying by Apple, Microsoft, Google, and other folks, most computers have good—no, great—fonts installed, and they're a great option if you want to not load a separate font.","BC Sans is cool and all...","Required","Read","6"
 "Front End","A Beginner's Guide to HTML, CSS, and JavaScript | HackerNoon","https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript","Unlock Your Web Development Potential with this Beginner's Guide to HTML, CSS, and JavaScript! Learn the Fundamentals and Create Stunning Websites.","","Required","Read","7"
 "Front End","Semantics - MDN Web Docs Glossary: Definitions of Web-related terms | MDN","https://developer.mozilla.org/en-US/docs/Glossary/Semantics","In programming, Semantics refers to the meaning of a piece of code — for example ""what effect does running that line of JavaScript have?"", or ""what purpose or role does that HTML element have"" (rather than ""what does it look like?"".)","Learn this stuff deeply. Knowing how to structure HTML well will serve you well.","Required","Read","8"
-"Security","Diceware Passphrase Home","https://theworld.com/~reinhold/diceware.html","This page offers a better way to create a strong, yet easy to remember, passphrase for use with encryption and security programs. Weak passwords and passphrases are one of the most common flaws in computer security. Take a few minutes and learn how to do it right. The information presented here can be used by anyone. No background in cryptography or mathematics is required. Just follow the simple steps below.","Good tool.","Required","Read","0"
-"Security","List of Emojis HEX/HTML Codes - DEV Community","https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma","Animal Emoji             Animal Type             Unicode Hex            ... Tagged with webdev, emoji, hexcodes, html.","","Required","Read","1"
-"Security","Privacy Decrypted #4: Understanding anonymity vs. privacy | Proton","https://proton.me/blog/anonymity-vs-privacy","Anonymity is not the same thing as privacy, and confusing these two concepts can weaken your online security.","","Required","Read","2"
 "Misc","5 Principles of Exceptional Case Studies in UX Portfolios | UX Tools","https://uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios/","Principles to help you write unique and compelling UX Design case studies for your portfolio.","Because iut's good.","Required","Read","0"
 "Misc","Archivematica: open-source digital preservation system","https://www.archivematica.org/en/","Archivematica: open-source digital preservation system","It doesn't matter how good your system is for taking backups if you never try to restore from those backups.","Required","Read","1"
 "Misc","WakaTime - Dashboards for developers","https://wakatime.com/","Open source IDE plugins for programmers.","You might be asked to track how much time you're spending on different projects.","Bonus","Read","2"
