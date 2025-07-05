@@ -1,23 +1,14 @@
 "Pathway Name","Full Stack Developer"
 "Pathway Description","Good links to all parts of the stack, even though that's a ridiculously large area. Bump."
 "Content Warning","!!!WARNING: Please basically ignore this pathway. This is an ad hoc development pathway that I've been using to quickly test this system. The links contained within work but many times the ""curator context"" is comedically incomplete or wrong. "
-"Acknowledgments","The Corporate Learning Branch would like to acknowledge the support we received from many of our colleagues and partners in multiple branches/ministries during the development of this learning resource. We also appreciate the invaluable comments we received during our engagement sessions.
-
-In particular, our sincere thanks go out to colleagues and partners at the following entities:
-
-* Policy & Legislation, BC Data Service, CITZ
-* Multiculturalism & Anti-Racism Branch, AG
-* PSA REDI, Policy and Employee Relations
-* SDPR Inclusion, Diversity and Cultural Safety (IDCS) & Anti-Racism 101 course
-* BIPOC Employee Resource Group
-* Indigenous Employees Network"
+"Acknowledgments",""
 "Created By","allanhaggett"
 "Created Date","2025-05-04T20:53:16.332Z"
 "Modified By","itr8tech"
-"Version","ymqgn2-2025-07-05"
-"Last Updated","2025-07-05T05:26:54.777Z"
+"Version","ki4mdk-2025-07-05"
+"Last Updated","2025-07-05T06:52:07.262Z"
 "Total Steps","6"
-"Total Bookmarks","33"
+"Total Bookmarks","35"
 ""
 "Step","Title","URL","Description","Context","Type","Content Type","Sort Order"
 "Accessibility","A11Y Project","https://www.a11yproject.com","Learn the fundamentals and principles behind accessible design","Start here.","Required","Read","0"
@@ -27,6 +18,7 @@ For many people, technology makes things easier. For people with disabilities, t
 
 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
 – (W3C - Accessibility)","A wonderful resource that will take you far.","Required","Read","1"
+"Accessibility","Mojibake - Wikipedia","https://en.wikipedia.org/wiki/Mojibake#External_links","","","resource","read","2"
 "Security","Diceware Passphrase Home","https://theworld.com/~reinhold/diceware.html","This page offers a better way to create a strong, yet easy to remember, passphrase for use with encryption and security programs. Weak passwords and passphrases are one of the most common flaws in computer security. Take a few minutes and learn how to do it right. The information presented here can be used by anyone. No background in cryptography or mathematics is required. Just follow the simple steps below.","Good tool.","Required","Read","0"
 "Security","List of Emojis HEX/HTML Codes - DEV Community","https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma","Animal Emoji             Animal Type             Unicode Hex            ... Tagged with webdev, emoji, hexcodes, html.","","Required","Read","1"
 "Security","Privacy Decrypted #4: Understanding anonymity vs. privacy | Proton","https://proton.me/blog/anonymity-vs-privacy","Anonymity is not the same thing as privacy, and confusing these two concepts can weaken your online security.","","Required","Read","2"
@@ -37,6 +29,7 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
 "Back End","REST Client - Visual Studio Marketplace","https://marketplace.visualstudio.com/items?itemName=humao.rest-client","Extension for Visual Studio Code - REST Client for Visual Studio Code","","Required","Read","4"
 "Back End","nginx","https://nginx.org/","nginx (""engine x"") is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. Originally written by Igor Sysoev and distributed under the 2-clause BSD License. Enterprise distributions, commercial support and training are available from F5, Inc.","","Required","Read","5"
 "Back End","Azure AI Search-Retrieval-Augmented Generation | Microsoft Azure","https://azure.microsoft.com/en-us/products/ai-services/ai-search/","Azure AI Search, formerly Azure Cognitive Search, is knowledge retrieval system GenAI applications powered byretrieval-augmented generation (RAG). Deliver the best AI experience to every user, at any scale.","We may get to use this so know what it is.","Required","Read","6"
+"Back End","Mojibake - Wikipedia","https://en.wikipedia.org/wiki/Mojibake#Resolutions","Mojibake (Japanese: 文字化け; IPA: [mod͡ʑibake], 'character transformation') is the garbled or gibberish text that is the result of text being decoded using an unintended character encoding.[1] The result is a systematic replacement of symbols with completely unrelated ones, often from a different writing system. ","When you need to know this, also know the phrase ""binary bridge method.""","resource","read","7"
 "Front End","Flexbox Froggy - A game for learning CSS flexbox","https://flexboxfroggy.com/","Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the lilypad on the right by using the justify-content property, which aligns items horizontally.","Get good at understanding this and the world is your oyster.","Required","Participate","0"
 "Front End","Tailwind Labs - YouTube","https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ","We're a small team of developers and designers spread out all across the world, building tools that help other developers build better user interfaces. We cr...","Watch this!","Required","Watch","1"
 "Front End","10 ways to speed up web font loading","https://byteofdev.com/posts/speed-up-font-loading/","Font loading can slow page load times significantly. This article shows you how to reduce the impact.","Performance is king.","Required","Watch","2"
