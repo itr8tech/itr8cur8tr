@@ -20,6 +20,28 @@
             "required": true,
             "addedAt": 1751752667587,
             "sortOrder": 0
+          },
+          {
+            "url": "https://footbag-nantes-wfc2025.com/",
+            "title": "World Footbag Championship",
+            "description": "Join us at Footbag Nantes for WFC 2025, the World Footbag Championships featuring freestyle, net, and team events.",
+            "type": "resource",
+            "contentType": "read",
+            "context": "Got to Worlds!",
+            "required": true,
+            "addedAt": 1751753217206,
+            "sortOrder": 1
+          },
+          {
+            "url": "http://www.footbag.org/",
+            "title": "Footbag WorldWide",
+            "description": "The original.",
+            "type": "resource",
+            "contentType": "read",
+            "context": "so much history here.",
+            "required": true,
+            "addedAt": 1751753245601,
+            "sortOrder": 2
           }
         ]
       }
@@ -43,12 +65,12 @@
       }
     ],
     "version": "28hd9p-2025-07-05",
-    "lastUpdated": 1751752667587,
+    "lastUpdated": 1751753245601,
     "modifiedBy": "itr8tech",
     "createdBy": "itr8tech",
     "id": "1751752543704",
     "createdDate": "2025-07-05T21:55:43.704Z",
-    "modifiedDate": "2025-07-05T21:57:47.589Z",
+    "modifiedDate": "2025-07-05T22:07:25.604Z",
     "title": "Hacky Sack"
   }
 ]
