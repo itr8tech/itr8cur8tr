@@ -5,8 +5,8 @@
     <description>My links for hacky sack</description>
     <link>pathcurator://pathway/1751752543704</link>
     <atom:link href="pathcurator://pathway/1751752543704/rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 05 Jul 2025 22:02:10 GMT</lastBuildDate>
-    <pubDate>Sat, 05 Jul 2025 21:57:47 GMT</pubDate>
+    <lastBuildDate>Sat, 05 Jul 2025 22:08:21 GMT</lastBuildDate>
+    <pubDate>Sat, 05 Jul 2025 22:07:25 GMT</pubDate>
     <generator>Path Curator Extension</generator>
     <language>en-US</language>
     <managingEditor>itr8tech</managingEditor>
@@ -16,6 +16,32 @@
         <description><![CDATA[<p>A small community still running forum style since 2002.</p><p><strong>Context:</strong> This is a place some of the most die-hard players still inhabit.</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
         <link>https://modified.in/footbag/viewforum.php?f=14&amp;sid=1f1a19fd3b48bb8a5be746b8a4e5a6e6</link>
         <guid isPermaLink="false">1751752543704-bookmark-0-0</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Basics</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>World Footbag Championship</title>
+        <description><![CDATA[<p>Join us at Footbag Nantes for WFC 2025, the World Footbag Championships featuring freestyle, net, and team events.</p><p><strong>Context:</strong> Got to Worlds!</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
+        <link>https://footbag-nantes-wfc2025.com/</link>
+        <guid isPermaLink="false">1751752543704-bookmark-0-1</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Basics</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Footbag WorldWide</title>
+        <description><![CDATA[<p>The original.</p><p><strong>Context:</strong> so much history here.</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
+        <link>http://www.footbag.org/</link>
+        <guid isPermaLink="false">1751752543704-bookmark-0-2</guid>
         <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
