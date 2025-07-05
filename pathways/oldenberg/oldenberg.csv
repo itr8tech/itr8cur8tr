@@ -1,0 +1,21 @@
+"Pathway Name","Oldenberg"
+"Pathway Description",""
+"Content Warning",""
+"Acknowledgments",""
+"Created By","Unknown"
+"Created Date","2025-07-05T03:17:52.243Z"
+"Modified By","Unknown"
+"Version","t0h44w-2025-07-05"
+"Last Updated","2025-07-05T03:49:15.039Z"
+"Total Steps","2"
+"Total Bookmarks","4"
+""
+"Step","Title","URL","Description","Context","Type","Content Type","Sort Order"
+"Apparatus","Ladysmith Secondary","https://www.islandweather.ca/station.php?name=LadysmithSecondary","Weather for me.","How hot is it?","Required","Read","0"
+"Apparatus","Kepler","https://kepler.gl","Make an impact with your location data
+Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets.
+","","Required","Read","1"
+"More to it than that","PathCurator","https://github.com/itr8tech/pathcurator#","This platform!","Testing 90989","Required","Read","0"
+"More to it than that","Depression Chart","https://allankenneth.github.io/depressionchart/","Answer these 14 questions, and your device stores your assessment. Come back in two weeks and take the test again. Your device remembers your previous scores, and as you keep taking the test a chart emerges that shows your results and how they've evolved over time.
+
+Note that your information is not transmitted over a network; your assessment is calculated on your device and is stored there too.","","Required","Read","1"
