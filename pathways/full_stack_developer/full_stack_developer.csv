@@ -5,10 +5,10 @@
 "Created By","allanhaggett"
 "Created Date","2025-05-04T20:53:16.332Z"
 "Modified By","itr8tech"
-"Version","ki4mdk-2025-07-05"
-"Last Updated","2025-07-05T06:52:07.262Z"
+"Version","47ckj1-2025-07-05"
+"Last Updated","2025-07-05T18:02:23.552Z"
 "Total Steps","6"
-"Total Bookmarks","35"
+"Total Bookmarks","37"
 ""
 "Step","Title","URL","Description","Context","Type","Content Type","Sort Order"
 "Accessibility","A11Y Project","https://www.a11yproject.com","Learn the fundamentals and principles behind accessible design","Start here.","Required","Read","0"
@@ -18,7 +18,7 @@ For many people, technology makes things easier. For people with disabilities, t
 
 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
 – (W3C - Accessibility)","A wonderful resource that will take you far.","Required","Read","1"
-"Accessibility","Mojibake - Wikipedia","https://en.wikipedia.org/wiki/Mojibake#External_links","","","resource","read","2"
+"Accessibility","Introduction to Web Accessibility | Web Accessibility Initiative (WAI) | W3C","https://www.w3.org/WAI/fundamentals/accessibility-intro/","Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","","resource","read","2"
 "Security","Diceware Passphrase Home","https://theworld.com/~reinhold/diceware.html","This page offers a better way to create a strong, yet easy to remember, passphrase for use with encryption and security programs. Weak passwords and passphrases are one of the most common flaws in computer security. Take a few minutes and learn how to do it right. The information presented here can be used by anyone. No background in cryptography or mathematics is required. Just follow the simple steps below.","Good tool.","Required","Read","0"
 "Security","List of Emojis HEX/HTML Codes - DEV Community","https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma","Animal Emoji             Animal Type             Unicode Hex            ... Tagged with webdev, emoji, hexcodes, html.","","Required","Read","1"
 "Security","Privacy Decrypted #4: Understanding anonymity vs. privacy | Proton","https://proton.me/blog/anonymity-vs-privacy","Anonymity is not the same thing as privacy, and confusing these two concepts can weaken your online security.","","Required","Read","2"
@@ -37,7 +37,7 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
 "Front End","</> htmx - high power tools for html","https://htmx.org/","htmx gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext
 
     htmx is small (~14k min.gz’d), dependency-free, extendable, IE11 compatible & has reduced code base sizes by 67% when compared with react","Fun stuff.","Required","Read","4"
-"Front End","Testing dead link","https://web-bdec76-prod.apps.silver.devops.gov.bc.ca/","This link should be dead.","Test","Required","Read","5"
+"Front End","Testing dead link","https://example.tech/","This link should be dead.","Test","Required","Read","5"
 "Front End","systemfontstack","https://systemfontstack.com/","Webfonts were great when most computers only had a handful of good fonts pre-installed. Thanks to font creation and buying by Apple, Microsoft, Google, and other folks, most computers have good—no, great—fonts installed, and they're a great option if you want to not load a separate font.","BC Sans is cool and all...","Required","Read","6"
 "Front End","A Beginner's Guide to HTML, CSS, and JavaScript | HackerNoon","https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript","Unlock Your Web Development Potential with this Beginner's Guide to HTML, CSS, and JavaScript! Learn the Fundamentals and Create Stunning Websites.","","Required","Read","7"
 "Front End","Semantics - MDN Web Docs Glossary: Definitions of Web-related terms | MDN","https://developer.mozilla.org/en-US/docs/Glossary/Semantics","In programming, Semantics refers to the meaning of a piece of code — for example ""what effect does running that line of JavaScript have?"", or ""what purpose or role does that HTML element have"" (rather than ""what does it look like?"".)","Learn this stuff deeply. Knowing how to structure HTML well will serve you well.","Required","Read","8"
@@ -47,6 +47,8 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
 "Misc","Linux: An Introduction to User Management - The New Stack","https://thenewstack.io/linux-an-introduction-to-user-management/","Should you use useradd or adduser? This tutorial will teach you how to manage other users on your Linux machine.","Basics! Gotta learn it.","Required","Read","3"
 "Misc","Zotero | Your personal research assistant","https://www.zotero.org/","Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.","Might be cool I dunno 🤷","Bonus","Read","4"
 "Misc","Download Government Marks - Province of British Columbia","https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/download-marks","Download provincial government marks (logos)","You're gonna need these.","Required","Read","5"
+"Misc","ChatGPT","https://chatgpt.com/","ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.","I mean, don't use it if it doesn't do anything for you, but I depend on this stuff.","other","read","6"
+"Misc","Mozilla — Internet for people, not profit","https://www.mozilla.org/en-CA/","We’re working to put control of the internet back in the hands of the people using it.","","resource","read","7"
 "Platforms","Just Ask! for Github organization access","https://just-ask-web-bdec76-prod.apps.silver.devops.gov.bc.ca/","Just Ask! A github app to just ask for Github organization access","","Required","Read","0"
 "Platforms","BC Developer Guide | A guide to application development for the B.C. government. | B.C. government DevHub","https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#ministry-specific-private-organizations-in-github-enterprise","The B.C. government DevHub is a place to access common technical documentation, community knowledge bases, code samples and APIs.","Do yourself a favor and know this stuff.","Required","Read","1"
 "Platforms","Common Hosted Single Sign-on (CSS)","https://bcgov.github.io/sso-requests/","The request process workflow tool for the RedHat SSO Dev Exchange service","We use this for Moodle and it should be preferred solution for SSO.","Required","Read","2"
