@@ -764,7 +764,7 @@
     "createdBy": "allanhaggett",
     "id": "1746391996332",
     "createdDate": "2025-05-04T20:53:16.332Z",
-    "modifiedDate": "2025-07-06T22:14:20.383Z",
+    "modifiedDate": "2025-07-06T22:30:32.197Z",
     "title": "Full Stack Developer"
   },
   {
@@ -806,6 +806,26 @@
             "status": "OK",
             "isValid": true,
             "available": true
+          },
+          {
+            "url": "http://footbag.org/",
+            "title": "Footbag WorldWide",
+            "description": "",
+            "type": "resource",
+            "contentType": "read",
+            "context": "The original since 1994",
+            "required": true,
+            "addedAt": 1751840996928
+          },
+          {
+            "url": "https://itr8.tech/",
+            "title": "Iterate Technologies - Software Development",
+            "description": "",
+            "type": "resource",
+            "contentType": "read",
+            "context": "I made this.",
+            "required": true,
+            "addedAt": 1751841032195
           }
         ]
       },
@@ -943,12 +963,12 @@
       }
     ],
     "version": "89l40o-2025-07-06",
-    "lastUpdated": 1751839987676,
+    "lastUpdated": 1751841032195,
     "modifiedBy": "itr8tech",
     "createdBy": "itr8tech",
     "id": "1751752543704",
     "createdDate": "2025-07-05T21:55:43.704Z",
-    "modifiedDate": "2025-07-06T22:14:20.386Z",
+    "modifiedDate": "2025-07-06T22:30:32.198Z",
     "title": "Hacky Sack"
   }
 ]
