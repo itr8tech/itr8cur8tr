@@ -5,8 +5,8 @@
     <description>My links for hacky sack</description>
     <link>pathcurator://pathway/1751752543704</link>
     <atom:link href="pathcurator://pathway/1751752543704/rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 05 Jul 2025 22:08:21 GMT</lastBuildDate>
-    <pubDate>Sat, 05 Jul 2025 22:07:25 GMT</pubDate>
+    <lastBuildDate>Sun, 06 Jul 2025 22:42:14 GMT</lastBuildDate>
+    <pubDate>Sun, 06 Jul 2025 22:40:12 GMT</pubDate>
     <generator>Path Curator Extension</generator>
     <language>en-US</language>
     <managingEditor>itr8tech</managingEditor>
@@ -25,9 +25,9 @@
         <contentType>read</contentType>
     </item>
     <item>
-        <title>World Footbag Championship</title>
-        <description><![CDATA[<p>Join us at Footbag Nantes for WFC 2025, the World Footbag Championships featuring freestyle, net, and team events.</p><p><strong>Context:</strong> Got to Worlds!</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
-        <link>https://footbag-nantes-wfc2025.com/</link>
+        <title>Big Add Posse</title>
+        <description><![CDATA[<p><strong>Context:</strong> Where it came from.</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
+        <link>https://bigaddposse.com/</link>
         <guid isPermaLink="false">1751752543704-bookmark-0-1</guid>
         <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
         <category>read</category>
@@ -39,8 +39,8 @@
     </item>
     <item>
         <title>Footbag WorldWide</title>
-        <description><![CDATA[<p>The original.</p><p><strong>Context:</strong> so much history here.</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
-        <link>http://www.footbag.org/</link>
+        <description><![CDATA[<p><strong>Context:</strong> The original since 1994</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
+        <link>http://footbag.org/</link>
         <guid isPermaLink="false">1751752543704-bookmark-0-2</guid>
         <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
         <category>read</category>
@@ -49,6 +49,84 @@
         <stepUrl>pathcurator://pathway/1751752543704/step/0</stepUrl>
         <required>Required</required>
         <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Iterate Technologies - Software Development</title>
+        <description><![CDATA[<p><strong>Context:</strong> I made this.</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
+        <link>https://itr8.tech/</link>
+        <guid isPermaLink="false">1751752543704-bookmark-0-3</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Basics</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Flipsider Footbag - YouTube</title>
+        <description><![CDATA[<p>Vintage footbag freestyle videos from Flipsider Footbag Company</p><p><strong>Context:</strong> So much history here documented in a way that only Flipsider could.</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
+        <link>https://www.youtube.com/@FlipsiderFootbag</link>
+        <guid isPermaLink="false">1751752543704-bookmark-0-4</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>watch</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Basics</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>watch</contentType>
+    </item>
+    <item>
+        <title>Allan Haggett - Board Shorts</title>
+        <description><![CDATA[<p>Yupypup</p><p><strong>Step Objective:</strong> Yeah see the vids</p>]]></description>
+        <link>https://vimeo.com/158856059</link>
+        <guid isPermaLink="false">1751752543704-bookmark-1-0</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>Watch</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Video 2016</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/1</stepUrl>
+        <required>Required</required>
+        <contentType>Watch</contentType>
+    </item>
+    <item>
+        <title>Y Series - Blue Room 1 on Vimeo</title>
+        <description><![CDATA[<p>Just another session.</p><p><strong>Step Objective:</strong> Yeah see the vids</p>]]></description>
+        <link>https://vimeo.com/153842457</link>
+        <guid isPermaLink="false">1751752543704-bookmark-1-1</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>watch</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Video 2016</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/1</stepUrl>
+        <required>Required</required>
+        <contentType>watch</contentType>
+    </item>
+    <item>
+        <title>Winter 2 - David Clavens - YouTube</title>
+        <description><![CDATA[<p>The second installment in my annual series of seasons.</p><p><strong>Context:</strong> OMG just watch it.</p><p><strong>Step Objective:</strong> Big year for footbag</p>]]></description>
+        <link>https://www.youtube.com/watch?v=SF91AqS_Iyg&amp;list=RDSF91AqS_Iyg&amp;start_radio=1</link>
+        <guid isPermaLink="false">1751752543704-bookmark-2-0</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>Watch</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Videos 2010</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/2</stepUrl>
+        <required>Required</required>
+        <contentType>Watch</contentType>
+    </item>
+    <item>
+        <title>Freestyle: A Footbag Story (Documentary, 2024) - YouTube</title>
+        <description><![CDATA[<p>Featuring members of the Big Add Posse, &#039;Freestyle: A Footbag Story&#039; is an award winning documentary following the origins of Freestyle Footbag, a little kno...</p><p><strong>Step Objective:</strong> Interesting time</p>]]></description>
+        <link>https://www.youtube.com/watch?v=DROAjjUY8b4</link>
+        <guid isPermaLink="false">1751752543704-bookmark-3-0</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>watch</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Videos 2024</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/3</stepUrl>
+        <required>Required</required>
+        <contentType>watch</contentType>
     </item>
 </channel>
 </rss>
