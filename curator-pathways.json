@@ -764,7 +764,7 @@
     "createdBy": "allanhaggett",
     "id": "1746391996332",
     "createdDate": "2025-05-04T20:53:16.332Z",
-    "modifiedDate": "2025-07-06T22:30:32.197Z",
+    "modifiedDate": "2025-07-06T22:40:12.944Z",
     "title": "Full Stack Developer"
   },
   {
@@ -826,6 +826,16 @@
             "context": "I made this.",
             "required": true,
             "addedAt": 1751841032195
+          },
+          {
+            "url": "https://www.youtube.com/@FlipsiderFootbag",
+            "title": "Flipsider Footbag - YouTube",
+            "description": "Vintage footbag freestyle videos from Flipsider Footbag Company",
+            "type": "video",
+            "contentType": "watch",
+            "context": "So much history here documented in a way that only Flipsider could.",
+            "required": true,
+            "addedAt": 1751841612937
           }
         ]
       },
@@ -963,12 +973,12 @@
       }
     ],
     "version": "89l40o-2025-07-06",
-    "lastUpdated": 1751841032195,
+    "lastUpdated": 1751841612937,
     "modifiedBy": "itr8tech",
     "createdBy": "itr8tech",
     "id": "1751752543704",
     "createdDate": "2025-07-05T21:55:43.704Z",
-    "modifiedDate": "2025-07-06T22:30:32.198Z",
+    "modifiedDate": "2025-07-06T22:40:12.944Z",
     "title": "Hacky Sack"
   }
 ]
