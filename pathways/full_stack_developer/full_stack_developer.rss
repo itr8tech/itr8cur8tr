@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>Full Stack Developer</title>
-    <description>Good links to all parts of the stack, even though that&#039;s a ridiculously large area. Bump.</description>
+    <description>Good links to all parts of the stack, even though that&#039;s a ridiculously large area.</description>
     <link>pathcurator://pathway/1746391996332</link>
     <atom:link href="pathcurator://pathway/1746391996332/rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 06 Jul 2025 02:26:10 GMT</lastBuildDate>
-    <pubDate>Sun, 06 Jul 2025 02:25:54 GMT</pubDate>
+    <lastBuildDate>Sun, 06 Jul 2025 02:41:00 GMT</lastBuildDate>
+    <pubDate>Sun, 06 Jul 2025 02:40:48 GMT</pubDate>
     <generator>Path Curator Extension</generator>
     <language>en-US</language>
     <managingEditor>allanhaggett</managingEditor>
@@ -371,23 +371,10 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
         <contentType>Read</contentType>
     </item>
     <item>
-        <title>Zotero | Your personal research assistant</title>
-        <description><![CDATA[<p>Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.</p><p><strong>Context:</strong> Might be cool I dunno 🤷</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://www.zotero.org/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-4</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>Read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>Read</contentType>
-    </item>
-    <item>
         <title>Download Government Marks - Province of British Columbia</title>
         <description><![CDATA[<p>Download provincial government marks (logos)</p><p><strong>Context:</strong> You&#039;re gonna need these.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/download-marks</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-5</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-4-4</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
@@ -400,7 +387,7 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
         <title>ChatGPT</title>
         <description><![CDATA[<p>ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.</p><p><strong>Context:</strong> I mean, don&#039;t use it if it doesn&#039;t do anything for you, but I depend on this stuff.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://chatgpt.com/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-6</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-4-5</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
@@ -413,6 +400,21 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
         <title>Mozilla — Internet for people, not profit</title>
         <description><![CDATA[<p>We’re working to put control of the internet back in the hands of the people using it.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://www.mozilla.org/en-CA/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-4-6</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Podman</title>
+        <description><![CDATA[<p>The best free &amp; open source container tools
+
+Manage containers, pods, and images with Podman. Seamlessly work with containers and Kubernetes from your local environment.</p><p><strong>Context:</strong> Containers are not the sole purview of Docker. Much of our work revolves around Docker, but it is recommended that we learn something else too.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://podman.io/</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-7</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>read</category>
