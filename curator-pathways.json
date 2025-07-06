@@ -792,7 +792,7 @@
     "createdBy": "allanhaggett",
     "id": "1746391996332",
     "createdDate": "2025-05-04T20:53:16.332Z",
-    "modifiedDate": "2025-07-06T23:19:41.456Z",
+    "modifiedDate": "2025-07-06T23:50:11.927Z",
     "title": "Full Stack Developer"
   },
   {
@@ -877,6 +877,16 @@
             "status": "OK",
             "isValid": true,
             "available": true
+          },
+          {
+            "url": "https://app.bchydro.com/accounts-billing/rates-energy-use/electricity-rates/residential-rates/time-of-day.html",
+            "title": "Time-of-day pricing",
+            "description": "With time-of-day pricing, electricity cost is higher in the evening and lower overnight. Good for customers with flexibility in energy use and home EV charging.",
+            "type": "resource",
+            "contentType": "read",
+            "context": "",
+            "required": true,
+            "addedAt": 1751845811925
           }
         ]
       },
@@ -1014,12 +1024,12 @@
       }
     ],
     "version": "89l40o-2025-07-06",
-    "lastUpdated": 1751841612937,
+    "lastUpdated": 1751845811925,
     "modifiedBy": "itr8tech",
     "createdBy": "itr8tech",
     "id": "1751752543704",
     "createdDate": "2025-07-05T21:55:43.704Z",
-    "modifiedDate": "2025-07-06T23:19:41.457Z",
+    "modifiedDate": "2025-07-06T23:50:11.928Z",
     "title": "Hacky Sack"
   }
 ]
