@@ -9,7 +9,7 @@
   <meta name="description" content="My links for hacky sack">
   <meta name="generator" content="Curator Extension">
   <meta name="created" content="2025-07-05T21:55:43.704Z">
-  <meta name="last-updated" content="2025-07-07T00:37:15.563Z">
+  <meta name="last-updated" content="2025-07-07T02:41:03.402Z">
   <meta name="version" content="2r2ocr-2025-07-07">
   <title>Hacky Sack</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -595,40 +595,60 @@ pre code {
         section.style.display = 'none';
       });
       
-      const activities = document.querySelectorAll('.activity');
+      const activities = document.querySelectorAll('article');
       let matchFound = false;
       let matchCount = 0;
       
-      activities.forEach(function(activity) {
-        const titleElement = activity.querySelector('h4') || activity.querySelector('h3');
-        const title = titleElement && titleElement.textContent ? titleElement.textContent.toLowerCase() : '';
-        const descElement = activity.querySelector('h4 + div') || activity.querySelector('h3 + div');
-        const description = descElement && descElement.textContent ? descElement.textContent.toLowerCase() : '';
-        const contextElement = activity.querySelector('.curatorcontext blockquote');
-        const context = contextElement ? contextElement.textContent.toLowerCase() : '';
+      activities.forEach(function(articleElement) {
+        const activity = articleElement.querySelector('.activity');
+        if (!activity) return;
         
-        const hasMatch = title.indexOf(searchTerm) !== -1 ||
-                        description.indexOf(searchTerm) !== -1 ||
-                        (context && context.indexOf(searchTerm) !== -1);
+        const titleElement = activity.querySelector('h3');
+        const title = titleElement && titleElement.textContent ? titleElement.textContent.toLowerCase() : '';
+        
+        // Get all text content from description and context areas
+        const allText = activity.textContent ? activity.textContent.toLowerCase() : '';
+        
+        const hasMatch = title.indexOf(searchTerm) !== -1 || allText.indexOf(searchTerm) !== -1;
         
         if (hasMatch) {
-          activity.style.display = 'block';
+          articleElement.style.display = '';
           matchFound = true;
           matchCount++;
           
-          const parentStep = activity.closest('details.step-container');
+          const parentStep = articleElement.closest('.step-container');
           if (parentStep) {
-            parentStep.setAttribute('open', 'open');
+            const details = parentStep.querySelector('details');
+            if (details) {
+              details.setAttribute('open', 'open');
+            }
           }
           
-          activity.setAttribute('data-search-result', 'true');
-          activity.setAttribute('aria-label', 'Search result ' + matchCount + ' for "' + searchTerm + '"');
+          articleElement.setAttribute('data-search-result', 'true');
+          articleElement.setAttribute('aria-label', 'Search result ' + matchCount + ' for "' + searchTerm + '"');
           
           highlightMatches(activity, searchTerm);
         } else {
-          activity.style.display = 'none';
-          activity.removeAttribute('data-search-result');
-          activity.removeAttribute('aria-label');
+          articleElement.style.display = 'none';
+          articleElement.removeAttribute('data-search-result');
+          articleElement.removeAttribute('aria-label');
+        }
+      });
+      
+      // Hide steps that have no visible bookmarks
+      document.querySelectorAll('.step-container').forEach(function(stepContainer) {
+        const visibleArticles = stepContainer.querySelectorAll('article:not([style*="display: none"])');
+        const stepSection = stepContainer;
+        
+        if (visibleArticles.length === 0) {
+          stepSection.style.display = 'none';
+        } else {
+          stepSection.style.display = '';
+          // Ensure the step is open if it has matches
+          const details = stepSection.querySelector('details');
+          if (details) {
+            details.setAttribute('open', 'open');
+          }
         }
       });
       
@@ -642,7 +662,7 @@ pre code {
       }
       
       if (matchFound) {
-        const firstResult = document.querySelector('.activity[data-search-result="true"]');
+        const firstResult = document.querySelector('article[data-search-result="true"]');
         if (firstResult) {
           firstResult.tabIndex = -1;
           firstResult.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -674,11 +694,16 @@ pre code {
         el.classList.remove('search-highlight');
       });
       
-      document.querySelectorAll('.activity').forEach(function(activity) {
-        activity.style.display = 'block';
-        activity.removeAttribute('data-search-result');
-        activity.removeAttribute('aria-label');
-        activity.removeAttribute('tabindex');
+      document.querySelectorAll('article').forEach(function(articleElement) {
+        articleElement.style.display = '';
+        articleElement.removeAttribute('data-search-result');
+        articleElement.removeAttribute('aria-label');
+        articleElement.removeAttribute('tabindex');
+      });
+      
+      // Show all steps again
+      document.querySelectorAll('.step-container').forEach(function(stepContainer) {
+        stepContainer.style.display = '';
       });
       
       document.querySelectorAll('.pause-reflect-section').forEach(function(section) {
@@ -922,7 +947,7 @@ pre code {
       <div class="lead mb-4 fs-4 prose prose-lg"><p>My links for hacky sack</p></div>
     </div>
     <div class="text-body-secondary small mb-3">
-      Last updated: July 6, 2025 at 05:37 PM | 
+      Last updated: July 6, 2025 at 07:41 PM | 
       Version: 2r2ocr-2025-07-07
     </div>
     
@@ -1189,7 +1214,7 @@ pre code {
             <div class="ms-3 d-flex align-items-center gap-2">
               <span class="badge text-bg-primary">1 Required</span>
               
-              
+              <span class="badge text-bg-success">1 Launched</span>
             </div>
           </div>
         </div>
@@ -1214,7 +1239,7 @@ pre code {
                   
                   <div class="bookmark-badges mb-2">
                     <span class="badge text-bg-primary">Required</span>
-                    
+                    <span class="badge text-bg-success ms-1">✓ Launched</span>
                   </div>
                   <a href="https://www.youtube.com/watch?v=SF91AqS_Iyg&amp;list=RDSF91AqS_Iyg&amp;start_radio=1" target="_blank" rel="noopener noreferrer"
                      class="btn btn-success btn-lg launch-btn"
@@ -1382,7 +1407,7 @@ pre code {
     <div class="pathway-metadata">
       <p>Created by: itr8tech</p>
       
-      <p>Generated on: <time datetime="2025-07-07T02:39:22.964Z">2025-07-06</time></p>
+      <p>Generated on: <time datetime="2025-07-07T03:22:10.222Z">2025-07-06</time></p>
     </div>
   </footer>
 </div>
