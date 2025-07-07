@@ -122,6 +122,8 @@
             "redirectUrl": null,
             "checkError": null,
             "isValid": true,
+            "visited": true,
+            "visitedAt": 1751856063401,
             "sortOrder": 0
           }
         ]
@@ -192,6 +194,13 @@
     "versionHistory": [
       {
         "hash": "2r2ocr-2025-07-07",
+        "timestamp": 1751856063402,
+        "stepCount": 4,
+        "bookmarkCount": 10,
+        "modifiedBy": "itr8tech"
+      },
+      {
+        "hash": "2r2ocr-2025-07-07",
         "timestamp": 1751848635563,
         "stepCount": 4,
         "bookmarkCount": 10,
@@ -248,12 +257,12 @@
       }
     ],
     "version": "2r2ocr-2025-07-07",
-    "lastUpdated": 1751848635563,
+    "lastUpdated": 1751856063402,
     "modifiedBy": "itr8tech",
     "createdBy": "itr8tech",
     "id": "1751752543704",
     "createdDate": "2025-07-05T21:55:43.704Z",
-    "modifiedDate": "2025-07-07T02:31:07.048Z",
+    "modifiedDate": "2025-07-07T02:41:03.441Z",
     "title": "Hacky Sack"
   }
 ]
