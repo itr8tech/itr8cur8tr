@@ -5,22 +5,21 @@
 "Created By","allanhaggett"
 "Created Date","2025-05-04T20:53:16.332Z"
 "Modified By","itr8tech"
-"Version","imdb99-2025-07-06"
-"Last Updated","2025-07-06T23:10:38.375Z"
+"Version","af8xcm-2025-07-07"
+"Last Updated","2025-07-07T19:12:23.841Z"
 "Total Steps","6"
 "Total Bookmarks","39"
 ""
 "Step","Title","URL","Description","Context","Type","Content Type","Sort Order"
 "Accessibility","Introduction to Web Accessibility | Web Accessibility Initiative (WAI) | W3C","https://www.w3.org/WAI/fundamentals/accessibility-intro/","Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).","","resource","read","0"
-"Accessibility","A11Y Project","https://www.a11yproject.com","Learn the fundamentals and principles behind accessible design","Start here.","Required","Read","1"
 "Accessibility","Accessibility on Mozilla Developer Network (MDN)","https://developer.mozilla.org/en-US/docs/Web/Accessibility","Accessibility (often abbreviated to A11y — as in, ""a"", then 11 characters, and then ""y"") in web development means enabling as many people as possible to use websites, even when those people's abilities are limited in some way.
 
 For many people, technology makes things easier. For people with disabilities, technology makes things possible. Accessibility means developing content to be as accessible as possible, no matter an individual's physical and cognitive abilities and how they access the web.
 
 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
-– (W3C - Accessibility)","A wonderful resource that will take you far.","Required","Read","2"
+– (W3C - Accessibility)","A wonderful resource that will take you far.","Required","Read","1"
+"Accessibility","A11Y Project","https://www.a11yproject.com","Learn the fundamentals and principles behind accessible design","Start here.","Required","Read","2"
 "Accessibility","Semantics - MDN Web Docs Glossary: Definitions of Web-related terms | MDN","https://developer.mozilla.org/en-US/docs/Glossary/Semantics","In programming, Semantics refers to the meaning of a piece of code — for example ""what effect does running that line of JavaScript have?"", or ""what purpose or role does that HTML element have"" (rather than ""what does it look like?"".)","Learn this stuff deeply. Knowing how to structure HTML well will serve you well.","Required","Read","3"
-"Accessibility","Iterate Technologies - Software Development","https://itr8.tech/","Accessibility consultant.","SELF PLUG","resource","read","4"
 "Security","Diceware Passphrase Home","https://theworld.com/~reinhold/diceware.html","This page offers a better way to create a strong, yet easy to remember, passphrase for use with encryption and security programs. Weak passwords and passphrases are one of the most common flaws in computer security. Take a few minutes and learn how to do it right. The information presented here can be used by anyone. No background in cryptography or mathematics is required. Just follow the simple steps below.","Good tool.","Required","Read","0"
 "Security","List of Emojis HEX/HTML Codes - DEV Community","https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma","Animal Emoji             Animal Type             Unicode Hex            ... Tagged with webdev, emoji, hexcodes, html.","","Required","Read","1"
 "Security","Privacy Decrypted #4: Understanding anonymity vs. privacy | Proton","https://proton.me/blog/anonymity-vs-privacy","Anonymity is not the same thing as privacy, and confusing these two concepts can weaken your online security.","","Required","Read","2"
@@ -32,6 +31,7 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
 "Back End","nginx","https://nginx.org/","nginx (""engine x"") is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. Originally written by Igor Sysoev and distributed under the 2-clause BSD License. Enterprise distributions, commercial support and training are available from F5, Inc.","","Required","Read","5"
 "Back End","Azure AI Search-Retrieval-Augmented Generation | Microsoft Azure","https://azure.microsoft.com/en-us/products/ai-services/ai-search/","Azure AI Search, formerly Azure Cognitive Search, is knowledge retrieval system GenAI applications powered byretrieval-augmented generation (RAG). Deliver the best AI experience to every user, at any scale.","We may get to use this so know what it is.","Required","Read","6"
 "Back End","Mojibake - Wikipedia","https://en.wikipedia.org/wiki/Mojibake#Resolutions","Mojibake (Japanese: 文字化け; IPA: [mod͡ʑibake], 'character transformation') is the garbled or gibberish text that is the result of text being decoded using an unintended character encoding.[1] The result is a systematic replacement of symbols with completely unrelated ones, often from a different writing system. ","When you need to know this, also know the phrase ""binary bridge method.""","resource","read","7"
+"Back End","What Every Programmer Should Know about How CPUs Work • Matt Godbolt • GOTO 2024 - YouTube","https://www.youtube.com/watch?v=-HNpim5x-IE","This presentation was recorded at GOTO Chicago 2024. #GOTOcon #GOTOchgohttps://gotochgo.comMatt Godbolt - Low-level Latency Geek @MattGodbolt RESOURCEShttps:...","Deep stuff but yeah.","video","watch","8"
 "Front End","Flexbox Froggy - A game for learning CSS flexbox","https://flexboxfroggy.com/","Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the lilypad on the right by using the justify-content property, which aligns items horizontally.","Get good at understanding this and the world is your oyster.","Required","Participate","0"
 "Front End","Tailwind Labs - YouTube","https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ","We're a small team of developers and designers spread out all across the world, building tools that help other developers build better user interfaces. We cr...","Watch this!","Required","Watch","1"
 "Front End","10 ways to speed up web font loading","https://byteofdev.com/posts/speed-up-font-loading/","Font loading can slow page load times significantly. This article shows you how to reduce the impact.","Performance is king.","Required","Watch","2"
