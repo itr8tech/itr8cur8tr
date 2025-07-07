@@ -5,8 +5,8 @@
     <description>My links for hacky sack</description>
     <link>pathcurator://pathway/1751752543704</link>
     <atom:link href="pathcurator://pathway/1751752543704/rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 06 Jul 2025 22:42:14 GMT</lastBuildDate>
-    <pubDate>Sun, 06 Jul 2025 22:40:12 GMT</pubDate>
+    <lastBuildDate>Mon, 07 Jul 2025 00:37:24 GMT</lastBuildDate>
+    <pubDate>Mon, 07 Jul 2025 00:37:15 GMT</pubDate>
     <generator>Path Curator Extension</generator>
     <language>en-US</language>
     <managingEditor>itr8tech</managingEditor>
@@ -77,15 +77,41 @@
         <contentType>watch</contentType>
     </item>
     <item>
-        <title>Allan Haggett - Board Shorts</title>
-        <description><![CDATA[<p>Yupypup</p><p><strong>Step Objective:</strong> Yeah see the vids</p>]]></description>
-        <link>https://vimeo.com/158856059</link>
+        <title>Time-of-day pricing</title>
+        <description><![CDATA[<p>With time-of-day pricing, electricity cost is higher in the evening and lower overnight. Good for customers with flexibility in energy use and home EV charging.</p><p><strong>Step Objective:</strong> Learn about footbag and its various sports.</p>]]></description>
+        <link>https://app.bchydro.com/accounts-billing/rates-energy-use/electricity-rates/residential-rates/time-of-day.html</link>
+        <guid isPermaLink="false">1751752543704-bookmark-0-5</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Basics</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Winter 2 - David Clavens - YouTube</title>
+        <description><![CDATA[<p>The second installment in my annual series of seasons.</p><p><strong>Context:</strong> OMG just watch it.</p><p><strong>Step Objective:</strong> Big year for footbag</p>]]></description>
+        <link>https://www.youtube.com/watch?v=SF91AqS_Iyg&amp;list=RDSF91AqS_Iyg&amp;start_radio=1</link>
         <guid isPermaLink="false">1751752543704-bookmark-1-0</guid>
         <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
         <category>Watch</category>
         <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
-        <stepName>Video 2016</stepName>
+        <stepName>Videos 2010</stepName>
         <stepUrl>pathcurator://pathway/1751752543704/step/1</stepUrl>
+        <required>Required</required>
+        <contentType>Watch</contentType>
+    </item>
+    <item>
+        <title>Allan Haggett - Board Shorts</title>
+        <description><![CDATA[<p>Yupypup</p><p><strong>Step Objective:</strong> Yeah see the vids</p>]]></description>
+        <link>https://vimeo.com/158856059</link>
+        <guid isPermaLink="false">1751752543704-bookmark-2-0</guid>
+        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
+        <category>Watch</category>
+        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
+        <stepName>Video 2016</stepName>
+        <stepUrl>pathcurator://pathway/1751752543704/step/2</stepUrl>
         <required>Required</required>
         <contentType>Watch</contentType>
     </item>
@@ -93,27 +119,14 @@
         <title>Y Series - Blue Room 1 on Vimeo</title>
         <description><![CDATA[<p>Just another session.</p><p><strong>Step Objective:</strong> Yeah see the vids</p>]]></description>
         <link>https://vimeo.com/153842457</link>
-        <guid isPermaLink="false">1751752543704-bookmark-1-1</guid>
+        <guid isPermaLink="false">1751752543704-bookmark-2-1</guid>
         <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
         <category>watch</category>
         <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
         <stepName>Video 2016</stepName>
-        <stepUrl>pathcurator://pathway/1751752543704/step/1</stepUrl>
-        <required>Required</required>
-        <contentType>watch</contentType>
-    </item>
-    <item>
-        <title>Winter 2 - David Clavens - YouTube</title>
-        <description><![CDATA[<p>The second installment in my annual series of seasons.</p><p><strong>Context:</strong> OMG just watch it.</p><p><strong>Step Objective:</strong> Big year for footbag</p>]]></description>
-        <link>https://www.youtube.com/watch?v=SF91AqS_Iyg&amp;list=RDSF91AqS_Iyg&amp;start_radio=1</link>
-        <guid isPermaLink="false">1751752543704-bookmark-2-0</guid>
-        <pubDate>Sat, 05 Jul 2025 21:55:43 GMT</pubDate>
-        <category>Watch</category>
-        <pathwayUrl>pathcurator://pathway/1751752543704</pathwayUrl>
-        <stepName>Videos 2010</stepName>
         <stepUrl>pathcurator://pathway/1751752543704/step/2</stepUrl>
         <required>Required</required>
-        <contentType>Watch</contentType>
+        <contentType>watch</contentType>
     </item>
     <item>
         <title>Freestyle: A Footbag Story (Documentary, 2024) - YouTube</title>
