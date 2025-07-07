@@ -125,11 +125,9 @@
 }
 
 .activity-container {
-    border: 1px solid #dee2e6;
     overflow: hidden;
     border-radius: 0.375rem;
     margin-bottom: 1rem;
-    background-color: #fff;
 }
 
 .activity-icon-container {
@@ -160,15 +158,12 @@
 
 details.step-container {
     margin-bottom: 1.5rem;
-    border: 1px solid #dee2e6;
     border-radius: 0.375rem;
     overflow: hidden;
 }
 
 details.step-container summary {
     padding: 0.75rem 1rem;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #dee2e6;
     cursor: pointer;
     transition: background-color 0.2s;
     display: flex;
@@ -198,7 +193,6 @@ details.step-container .step-content {
 }
 
 .step-objective {
-    background-color: #f8f9fa;
     padding: 0.75rem;
     border-radius: 0.25rem;
     font-style: italic;
@@ -214,7 +208,6 @@ details.step-container .step-content {
 }
 
 .pause-reflect-section {
-    background-color: #f8f9fa;
     border-radius: 0.375rem;
     padding: 1rem;
     margin-top: 2rem;
@@ -233,9 +226,7 @@ details.step-container .step-content {
 
 .control-bar {
     padding: 15px 0;
-    border-bottom: 1px solid #dee2e6;
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-    background-color: white;
 }
 
 .control-bar.fixed-top {
@@ -311,9 +302,6 @@ details.step-container .step-content {
     outline: 1px solid #d39e00;
 }
 
-.text-muted, .text-muted small {
-    color: #5a6268 !important;
-}
 
 .badge.launched-badge {
     color: white;
@@ -457,152 +445,6 @@ pre code {
     border-color: #ced4da;
 }
 
-/* Dark mode styles */
-body.dark-mode {
-    background-color: #121212;
-    color: #e0e0e0;
-}
-
-body.dark-mode .moodlecurator {
-    background-color: #121212;
-    color: #e0e0e0;
-}
-
-body.dark-mode .card {
-    background-color: #1e1e1e;
-    border-color: #2d2d2d;
-    color: #e0e0e0;
-}
-
-body.dark-mode .card-header {
-    background-color: #2d2d2d;
-    border-bottom-color: #3d3d3d;
-}
-
-body.dark-mode .card-body {
-    color: #e0e0e0;
-}
-
-body.dark-mode .step-container {
-    border-color: #2d2d2d;
-}
-
-body.dark-mode .step-container summary {
-    background-color: #1e1e1e;
-    border-bottom-color: #2d2d2d;
-}
-
-body.dark-mode .step-objective {
-    background-color: #2a2a2a;
-}
-
-body.dark-mode .activity-container {
-    border-color: #2d2d2d;
-    background-color: #1e1e1e;
-}
-
-body.dark-mode .step-summary {
-    color: #aaa;
-}
-
-body.dark-mode .control-bar {
-    background-color: #1e1e1e;
-    border-color: #2d2d2d;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-body.dark-mode .pause-reflect-section {
-    background-color: #1e1e1e !important;
-}
-
-body.dark-mode .progress {
-    background-color: #2d2d2d;
-}
-
-body.dark-mode .form-control {
-    background-color: #2d2d2d;
-    border-color: #3d3d3d;
-    color: #e0e0e0;
-}
-
-body.dark-mode .form-control::placeholder {
-    color: #aaa;
-}
-
-body.dark-mode .btn-outline-secondary {
-    color: #ccc;
-    border-color: #3d3d3d;
-}
-
-body.dark-mode .btn-outline-secondary:hover {
-    background-color: #2d2d2d;
-    color: #fff;
-}
-
-body.dark-mode .text-muted,
-body.dark-mode .text-muted small {
-    color: #adb5bd !important;
-}
-
-body.dark-mode a {
-    color: #8ab4f8;
-}
-
-body.dark-mode a:hover {
-    color: #aecbfa;
-}
-
-body.dark-mode .badge.bg-blue {
-    background-color: #3d5a99 !important;
-}
-
-body.dark-mode .badge.bg-sagedark {
-    background-color: #2c8c6c !important;
-}
-
-body.dark-mode .badge.bg-bluegreen {
-    background-color: #357385 !important;
-}
-
-body.dark-mode blockquote {
-    border-left-color: #4d4d4d;
-    background-color: #252525;
-    padding: 0.5rem;
-    border-radius: 0.25rem;
-}
-
-body.dark-mode .bg-warning-subtle {
-    background-color: #332701 !important;
-    color: #e0e0e0;
-}
-
-body.dark-mode details summary {
-    color: #e0e0e0;
-}
-
-body.dark-mode details summary.text-black {
-    color: #ffc107 !important;
-}
-
-body.dark-mode .search-highlight {
-    background-color: rgba(255, 193, 7, 0.25);
-    outline-color: #b38600;
-}
-
-body.dark-mode :focus-visible {
-    outline-color: #8ab4f8 !important;
-    box-shadow: 0 0 0 0.2rem rgba(138, 180, 248, 0.5) !important;
-}
-
-body.dark-mode #darkModeToggle {
-    border-color: #495057;
-}
-
-body.dark-mode #darkModeToggle:hover {
-    background-color: #212529;
-    border-color: #adb5bd;
-}
-
 .prose {
     max-width: 65ch;
     line-height: 1.6;
@@ -617,64 +459,6 @@ body.dark-mode #darkModeToggle:hover {
 .prose-lg {
     max-width: 75ch;
     line-height: 1.7;
-}
-
-.broken-link-warning {
-    color: #856404;
-    background-color: #fff3cd;
-    border: 1px solid #ffeeba;
-    border-radius: 0.25rem;
-    padding: 0.5rem 0.75rem;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    display: inline-block;
-    font-size: 0.875rem;
-    vertical-align: middle;
-}
-
-body.dark-mode .prose,
-body.dark-mode .prose-sm,
-body.dark-mode .prose-lg {
-    color: #e0e0e0;
-}
-
-body.dark-mode .broken-link-warning {
-    color: #ffda6a;
-    background-color: #332701;
-    border-color: #664d03;
-}
-
-body.dark-mode .moodlecurator pre {
-    background-color: #2a2a2a;
-    border-color: #444;
-    color: #e0e0e0;
-}
-
-body.dark-mode .moodlecurator code {
-    background-color: #2a2a2a;
-    color: #ff77aa;
-}
-
-body.dark-mode .moodlecurator table th {
-    background-color: #2a2a2a;
-    border-color: #444;
-    color: #e0e0e0;
-}
-
-body.dark-mode .moodlecurator table td {
-    border-color: #444;
-}
-
-body.dark-mode .moodlecurator table tr:nth-of-type(odd) {
-    background-color: rgba(255, 255, 255, 0.05);
-}
-
-body.dark-mode .moodlecurator hr {
-    border-color: rgba(255, 255, 255, 0.1);
-}
-
-body.dark-mode img:not([src*=".svg"]) {
-    filter: brightness(0.9) contrast(1.1);
 }
   </style>
   <script>
@@ -708,8 +492,9 @@ body.dark-mode img:not([src*=".svg"]) {
       let completedRequired = 0;
       
       document.querySelectorAll('.activity-container').forEach(container => {
-        const badge = container.querySelector('.activity-badge');
-        if (badge && badge.textContent.trim() === 'Required') {
+        const badgeArea = container.querySelector('.bookmark-badges');
+        const requiredBadge = badgeArea.querySelector('.badge.text-bg-primary');
+        if (requiredBadge && requiredBadge.textContent.trim() === 'Required') {
           totalRequired++;
           const launchBtn = container.querySelector('.launch-btn');
           if (launchBtn && links[launchBtn.getAttribute('href')]) {
@@ -772,7 +557,7 @@ body.dark-mode img:not([src*=".svg"]) {
         const container = btn.closest('.activity-container');
         const badge = container.querySelector('.launched-badge');
         
-        if (links[url]) {
+        if (links[url] && badge) {
           badge.classList.remove('d-none');
           
           if (justLaunchedUrl && url === justLaunchedUrl) {
@@ -783,14 +568,14 @@ body.dark-mode img:not([src*=".svg"]) {
     }
     
     function expandAll() {
-      var stepDetails = document.querySelectorAll('details.step-container');
+      var stepDetails = document.querySelectorAll('.step-container details');
       for (var i = 0; i < stepDetails.length; i++) {
         stepDetails[i].setAttribute('open', 'open');
       }
     }
     
     function collapseAll() {
-      var stepDetails = document.querySelectorAll('details.step-container');
+      var stepDetails = document.querySelectorAll('.step-container details');
       for (var i = 0; i < stepDetails.length; i++) {
         stepDetails[i].removeAttribute('open');
       }
@@ -918,10 +703,11 @@ body.dark-mode img:not([src*=".svg"]) {
     
     // Dark mode functionality
     function toggleDarkMode() {
-      document.body.classList.toggle('dark-mode');
-      const isDarkMode = document.body.classList.contains('dark-mode');
-      localStorage.setItem('curator_dark_mode', isDarkMode ? 'true' : 'false');
-      updateDarkModeToggleIcon(isDarkMode);
+      const currentTheme = document.documentElement.getAttribute('data-bs-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', newTheme);
+      localStorage.setItem('curator_dark_mode', newTheme === 'dark' ? 'true' : 'false');
+      updateDarkModeToggleIcon(newTheme === 'dark');
     }
     
     function updateDarkModeToggleIcon(isDarkMode) {
@@ -940,11 +726,7 @@ body.dark-mode img:not([src*=".svg"]) {
       const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       const shouldBeDark = savedDarkMode === 'true' || (savedDarkMode === null && prefersDarkMode);
       
-      if (shouldBeDark) {
-        document.body.classList.add('dark-mode');
-      } else {
-        document.body.classList.remove('dark-mode');
-      }
+      document.documentElement.setAttribute('data-bs-theme', shouldBeDark ? 'dark' : 'light');
       
       updateDarkModeToggleIcon(shouldBeDark);
       
@@ -964,15 +746,63 @@ body.dark-mode img:not([src*=".svg"]) {
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
           if (localStorage.getItem('curator_dark_mode') === null) {
             const shouldBeDark = e.matches;
-            if (shouldBeDark) {
-              document.body.classList.add('dark-mode');
-            } else {
-              document.body.classList.remove('dark-mode');
-            }
+            document.documentElement.setAttribute('data-bs-theme', shouldBeDark ? 'dark' : 'light');
             updateDarkModeToggleIcon(shouldBeDark);
           }
         });
       }
+    }
+    
+    // Track launch function for onclick handlers
+    function trackLaunch(element) {
+      const url = element.getAttribute('href');
+      const stepIndex = element.getAttribute('data-step');
+      const bookmarkIndex = element.getAttribute('data-bookmark');
+      
+      markAsLaunched(url);
+      updateStepBadges();
+    }
+    
+    // Update step badges with launched counts
+    function updateStepBadges() {
+      const links = loadLaunchedLinks();
+      
+      document.querySelectorAll('.step-container').forEach(function(stepContainer, stepIndex) {
+        const launchedBadge = stepContainer.querySelector('.badge.text-bg-success');
+        const stepContent = stepContainer.querySelector('.step-content');
+        const launchButtons = stepContent.querySelectorAll('.launch-btn');
+        
+        let launchedCount = 0;
+        launchButtons.forEach(function(btn) {
+          const url = btn.getAttribute('href');
+          if (links[url]) {
+            launchedCount++;
+            
+            // Update individual bookmark badge
+            const bookmarkContainer = btn.closest('.activity');
+            const badgeArea = bookmarkContainer.querySelector('.bookmark-badges');
+            const existingLaunchedBadge = badgeArea.querySelector('.badge.text-bg-success');
+            
+            if (!existingLaunchedBadge) {
+              badgeArea.innerHTML += '<span class="badge text-bg-success ms-1">✓ Launched</span>';
+            }
+          }
+        });
+        
+        // Update or add launched badge in step header
+        const badgeContainer = stepContainer.querySelector('.summary-content .ms-3');
+        const existingLaunchedBadge = badgeContainer.querySelector('.text-bg-success');
+        
+        if (launchedCount > 0) {
+          if (existingLaunchedBadge) {
+            existingLaunchedBadge.textContent = launchedCount + ' Launched';
+          } else {
+            badgeContainer.innerHTML += '<span class="badge text-bg-success">' + launchedCount + ' Launched</span>';
+          }
+        } else if (existingLaunchedBadge) {
+          existingLaunchedBadge.remove();
+        }
+      });
     }
     
     // Set up event listeners for launch buttons
@@ -981,6 +811,7 @@ body.dark-mode img:not([src*=".svg"]) {
         btn.addEventListener('click', function(e) {
           const url = this.getAttribute('href');
           markAsLaunched(url);
+          updateStepBadges();
         });
       });
     }
@@ -1064,10 +895,12 @@ body.dark-mode img:not([src*=".svg"]) {
       
       setupLaunchTracking();
       updateLaunchedBadges();
+      updateStepBadges();
       
       setTimeout(function() {
         updateProgressBar();
         updateLaunchedBadges();
+        updateStepBadges();
       }, 200);
       
       handleScroll();
@@ -1088,7 +921,7 @@ body.dark-mode img:not([src*=".svg"]) {
     <div>
       <div class="lead mb-4 fs-4 prose prose-lg"><p>My links for hacky sack</p></div>
     </div>
-    <div class="text-muted small mb-3">
+    <div class="text-body-secondary small mb-3">
       Last updated: July 6, 2025 at 05:37 PM | 
       Version: 2r2ocr-2025-07-07
     </div>
@@ -1099,7 +932,7 @@ body.dark-mode img:not([src*=".svg"]) {
   <div id="control-bar-container" class="mb-4">
     <div id="controls-spacer" class="controls-spacer"></div>
     
-    <div id="control-bar" class="control-bar w-100">
+    <div id="control-bar" class="control-bar w-100 bg-body border-bottom">
       <div class="container">
         <div class="progress-container py-2 mb-2">
           <div class="d-flex justify-content-between align-items-center">
@@ -1111,7 +944,7 @@ body.dark-mode img:not([src*=".svg"]) {
               </div>
             </div>
             <div class="d-flex align-items-center">
-              <span id="progress-counter" class="text-muted small me-2">0 of 0 required</span>
+              <span id="progress-counter" class="text-body-secondary small me-2">0 of 0 required</span>
               <span id="progress-percentage" class="badge bg-sagedark" aria-live="polite">0%</span>
             </div>
           </div>
@@ -1132,7 +965,7 @@ body.dark-mode img:not([src*=".svg"]) {
                 <i class="fa fa-search" aria-hidden="true"></i> Search
               </button>
             </div>
-            <div id="searchResultsMessage" class="text-muted small mt-1" aria-live="polite"></div>
+            <div id="searchResultsMessage" class="text-body-secondary small mt-1" aria-live="polite"></div>
           </div>
           <div class="btn-group" role="group" aria-label="Pathway navigation controls">
             <button onclick="expandAll()" class="btn btn-outline-secondary" aria-label="Expand all steps">
@@ -1152,185 +985,188 @@ body.dark-mode img:not([src*=".svg"]) {
   </div>
   
   <main id="main-content">
-    <section class="step-container" id="step-1">
+    <section class="step-container border rounded shadow-sm mb-3" id="step-1">
       <details>
-        <summary class="fw-semibold" role="button" aria-expanded="false" aria-controls="step-1-content">
-        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <summary class="fw-semibold p-3 bg-body-tertiary border-bottom" role="button" aria-expanded="false" aria-controls="step-1-content">
         <div class="summary-content">
           <div class="d-flex justify-content-between align-items-start">
             <div class="flex-grow-1">
-              <h2 class="h4 mb-0" id="step-1-heading">Step 1: Basics</h2>
-              <div class="step-summary">Learn about footbag and its various sports.</div>
+              <h2 class="h5 mb-1" id="step-1-heading">Step 1: Basics</h2>
+              <div class="step-summary text-body-secondary small">Learn about footbag and its various sports.</div>
             </div>
-            <div class="ms-2 d-flex align-items-center">
-              <span class="badge bg-secondary me-1">0 Launched</span>
-              <span class="badge bg-light text-dark">6 Required</span>
+            <div class="ms-3 d-flex align-items-center gap-2">
+              <span class="badge text-bg-primary">6 Required</span>
+              
+              
             </div>
           </div>
         </div>
       </summary>
-      <div class="step-content" id="step-1-content" aria-labelledby="step-1-heading">
-        <div class="step-objective"><p>Learn about footbag and its various sports.</p></div>
+      <div class="step-content p-4" id="step-1-content" aria-labelledby="step-1-heading">
+        <div class="step-objective bg-body-tertiary p-3 rounded mb-4 border-start border-4 border-primary">
+          <h6 class="fw-semibold mb-2"><i class="fa fa-target me-2"></i>Objective</h6>
+          <div class="fst-italic"><p>Learn about footbag and its various sports.</p></div>
+        </div>
         
         <div class="row">
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Footblogs - modified</h3>
+                  <h3 class="mb-2">Footblogs - modified</h3>
                   <div class="mb-2"><p>A small community still running forum style since 2002.</p></div>
                   <div class="curatorcontext"><blockquote class="mb-2"><p>This is a place some of the most die-hard players still inhabit.</p></blockquote></div>
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">read</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://modified.in/footbag/viewforum.php?f=14&amp;sid=1f1a19fd3b48bb8a5be746b8a4e5a6e6" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Footblogs - modified (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://modified.in/footbag/viewforum.php?f=14&amp;sid=1f1a19fd3b48bb8a5be746b8a4e5a6e6" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="0" 
+                     data-bookmark="0"
+                     aria-label="Launch Footblogs - modified (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </article>
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Big Add Posse</h3>
+                  <h3 class="mb-2">Big Add Posse</h3>
                   
                   <div class="curatorcontext"><blockquote class="mb-2"><p>Where it came from.</p></blockquote></div>
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">read</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://bigaddposse.com/" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Big Add Posse (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://bigaddposse.com/" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="0" 
+                     data-bookmark="1"
+                     aria-label="Launch Big Add Posse (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </article>
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Footbag WorldWide</h3>
+                  <h3 class="mb-2">Footbag WorldWide</h3>
                   
                   <div class="curatorcontext"><blockquote class="mb-2"><p>The original since 1994</p></blockquote></div>
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">read</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="http://footbag.org/" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Footbag WorldWide (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="http://footbag.org/" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="0" 
+                     data-bookmark="2"
+                     aria-label="Launch Footbag WorldWide (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </article>
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Iterate Technologies - Software Development</h3>
+                  <h3 class="mb-2">Iterate Technologies - Software Development</h3>
                   
                   <div class="curatorcontext"><blockquote class="mb-2"><p>I made this.</p></blockquote></div>
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">read</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://itr8.tech/" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Iterate Technologies - Software Development (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://itr8.tech/" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="0" 
+                     data-bookmark="3"
+                     aria-label="Launch Iterate Technologies - Software Development (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </article>
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Flipsider Footbag - YouTube</h3>
+                  <h3 class="mb-2">Flipsider Footbag - YouTube</h3>
                   <div class="mb-2"><p>Vintage footbag freestyle videos from Flipsider Footbag Company</p></div>
                   <div class="curatorcontext"><blockquote class="mb-2"><p>So much history here documented in a way that only Flipsider could.</p></blockquote></div>
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">watch</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://www.youtube.com/@FlipsiderFootbag" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Flipsider Footbag - YouTube (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://www.youtube.com/@FlipsiderFootbag" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="0" 
+                     data-bookmark="4"
+                     aria-label="Launch Flipsider Footbag - YouTube (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </article>
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Time-of-day pricing</h3>
+                  <h3 class="mb-2">Time-of-day pricing</h3>
                   <div class="mb-2"><p>With time-of-day pricing, electricity cost is higher in the evening and lower overnight. Good for customers with flexibility in energy use and home EV charging.</p></div>
                   
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">read</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://app.bchydro.com/accounts-billing/rates-energy-use/electricity-rates/residential-rates/time-of-day.html" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Time-of-day pricing (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://app.bchydro.com/accounts-billing/rates-energy-use/electricity-rates/residential-rates/time-of-day.html" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="0" 
+                     data-bookmark="5"
+                     aria-label="Launch Time-of-day pricing (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1341,50 +1177,53 @@ body.dark-mode img:not([src*=".svg"]) {
       </div>
     </details>
     </section>
-    <section class="step-container" id="step-2">
+    <section class="step-container border rounded shadow-sm mb-3" id="step-2">
       <details>
-        <summary class="fw-semibold" role="button" aria-expanded="false" aria-controls="step-2-content">
-        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <summary class="fw-semibold p-3 bg-body-tertiary border-bottom" role="button" aria-expanded="false" aria-controls="step-2-content">
         <div class="summary-content">
           <div class="d-flex justify-content-between align-items-start">
             <div class="flex-grow-1">
-              <h2 class="h4 mb-0" id="step-2-heading">Step 2: Videos 2010</h2>
-              <div class="step-summary">Big year for footbag</div>
+              <h2 class="h5 mb-1" id="step-2-heading">Step 2: Videos 2010</h2>
+              <div class="step-summary text-body-secondary small">Big year for footbag</div>
             </div>
-            <div class="ms-2 d-flex align-items-center">
-              <span class="badge bg-secondary me-1">0 Launched</span>
-              <span class="badge bg-light text-dark">1 Required</span>
+            <div class="ms-3 d-flex align-items-center gap-2">
+              <span class="badge text-bg-primary">1 Required</span>
+              
+              
             </div>
           </div>
         </div>
       </summary>
-      <div class="step-content" id="step-2-content" aria-labelledby="step-2-heading">
-        <div class="step-objective"><p>Big year for footbag</p></div>
+      <div class="step-content p-4" id="step-2-content" aria-labelledby="step-2-heading">
+        <div class="step-objective bg-body-tertiary p-3 rounded mb-4 border-start border-4 border-primary">
+          <h6 class="fw-semibold mb-2"><i class="fa fa-target me-2"></i>Objective</h6>
+          <div class="fst-italic"><p>Big year for footbag</p></div>
+        </div>
         
         <div class="row">
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-bluegreen" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-play text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Winter 2 - David Clavens - YouTube</h3>
+                  <h3 class="mb-2">Winter 2 - David Clavens - YouTube</h3>
                   <div class="mb-2"><p>The second installment in my annual series of seasons.</p></div>
                   <div class="curatorcontext"><blockquote class="mb-2"><p>OMG just watch it.</p></blockquote></div>
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-bluegreen text-white ms-1">Watch</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://www.youtube.com/watch?v=SF91AqS_Iyg&amp;list=RDSF91AqS_Iyg&amp;start_radio=1" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Winter 2 - David Clavens - YouTube (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://www.youtube.com/watch?v=SF91AqS_Iyg&amp;list=RDSF91AqS_Iyg&amp;start_radio=1" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="1" 
+                     data-bookmark="0"
+                     aria-label="Launch Winter 2 - David Clavens - YouTube (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1395,77 +1234,80 @@ body.dark-mode img:not([src*=".svg"]) {
       </div>
     </details>
     </section>
-    <section class="step-container" id="step-3">
+    <section class="step-container border rounded shadow-sm mb-3" id="step-3">
       <details>
-        <summary class="fw-semibold" role="button" aria-expanded="false" aria-controls="step-3-content">
-        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <summary class="fw-semibold p-3 bg-body-tertiary border-bottom" role="button" aria-expanded="false" aria-controls="step-3-content">
         <div class="summary-content">
           <div class="d-flex justify-content-between align-items-start">
             <div class="flex-grow-1">
-              <h2 class="h4 mb-0" id="step-3-heading">Step 3: Video 2016</h2>
-              <div class="step-summary">Yeah see the vids</div>
+              <h2 class="h5 mb-1" id="step-3-heading">Step 3: Video 2016</h2>
+              <div class="step-summary text-body-secondary small">Yeah see the vids</div>
             </div>
-            <div class="ms-2 d-flex align-items-center">
-              <span class="badge bg-secondary me-1">0 Launched</span>
-              <span class="badge bg-light text-dark">2 Required</span>
+            <div class="ms-3 d-flex align-items-center gap-2">
+              <span class="badge text-bg-primary">2 Required</span>
+              
+              
             </div>
           </div>
         </div>
       </summary>
-      <div class="step-content" id="step-3-content" aria-labelledby="step-3-heading">
-        <div class="step-objective"><p>Yeah see the vids</p></div>
+      <div class="step-content p-4" id="step-3-content" aria-labelledby="step-3-heading">
+        <div class="step-objective bg-body-tertiary p-3 rounded mb-4 border-start border-4 border-primary">
+          <h6 class="fw-semibold mb-2"><i class="fa fa-target me-2"></i>Objective</h6>
+          <div class="fst-italic"><p>Yeah see the vids</p></div>
+        </div>
         
         <div class="row">
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-bluegreen" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-play text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Allan Haggett - Board Shorts</h3>
+                  <h3 class="mb-2">Allan Haggett - Board Shorts</h3>
                   <div class="mb-2"><p>Yupypup</p></div>
                   
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-bluegreen text-white ms-1">Watch</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://vimeo.com/158856059" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Allan Haggett - Board Shorts (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://vimeo.com/158856059" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="2" 
+                     data-bookmark="0"
+                     aria-label="Launch Allan Haggett - Board Shorts (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </article>
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Y Series - Blue Room 1 on Vimeo</h3>
+                  <h3 class="mb-2">Y Series - Blue Room 1 on Vimeo</h3>
                   <div class="mb-2"><p>Just another session.</p></div>
                   
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">watch</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://vimeo.com/153842457" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Y Series - Blue Room 1 on Vimeo (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://vimeo.com/153842457" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="2" 
+                     data-bookmark="1"
+                     aria-label="Launch Y Series - Blue Room 1 on Vimeo (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1476,50 +1318,53 @@ body.dark-mode img:not([src*=".svg"]) {
       </div>
     </details>
     </section>
-    <section class="step-container" id="step-4">
+    <section class="step-container border rounded shadow-sm mb-3" id="step-4">
       <details>
-        <summary class="fw-semibold" role="button" aria-expanded="false" aria-controls="step-4-content">
-        <i class="fa fa-caret-right me-2 caret-icon" aria-hidden="true"></i>
+        <summary class="fw-semibold p-3 bg-body-tertiary border-bottom" role="button" aria-expanded="false" aria-controls="step-4-content">
         <div class="summary-content">
           <div class="d-flex justify-content-between align-items-start">
             <div class="flex-grow-1">
-              <h2 class="h4 mb-0" id="step-4-heading">Step 4: Videos 2024</h2>
-              <div class="step-summary">Interesting time</div>
+              <h2 class="h5 mb-1" id="step-4-heading">Step 4: Videos 2024</h2>
+              <div class="step-summary text-body-secondary small">Interesting time</div>
             </div>
-            <div class="ms-2 d-flex align-items-center">
-              <span class="badge bg-secondary me-1">0 Launched</span>
-              <span class="badge bg-light text-dark">1 Required</span>
+            <div class="ms-3 d-flex align-items-center gap-2">
+              <span class="badge text-bg-primary">1 Required</span>
+              
+              
             </div>
           </div>
         </div>
       </summary>
-      <div class="step-content" id="step-4-content" aria-labelledby="step-4-heading">
-        <div class="step-objective"><p>Interesting time</p></div>
+      <div class="step-content p-4" id="step-4-content" aria-labelledby="step-4-heading">
+        <div class="step-objective bg-body-tertiary p-3 rounded mb-4 border-start border-4 border-primary">
+          <h6 class="fw-semibold mb-2"><i class="fa fa-target me-2"></i>Objective</h6>
+          <div class="fst-italic"><p>Interesting time</p></div>
+        </div>
         
         <div class="row">
           <article class="col-md-12 mb-3">
-            <div class="activity-container d-flex">
-              <div class="activity-icon-container bg-sagedark" aria-hidden="true">
+            <div class="activity-container d-flex border rounded bg-body-tertiary">
+              <div class="activity-icon-container bg-primary d-flex align-items-center justify-content-center p-3" aria-hidden="true" style="width: 60px;">
                 <i class="fa fa-book text-white" aria-hidden="true"></i>
               </div>
               <div class="flex-grow-1 p-3">
                 <div class="activity">
-                  <h3 class="h6 mb-2">Freestyle: A Footbag Story (Documentary, 2024) - YouTube</h3>
+                  <h3 class="mb-2">Freestyle: A Footbag Story (Documentary, 2024) - YouTube</h3>
                   <div class="mb-2"><p>Featuring members of the Big Add Posse, 'Freestyle: A Footbag Story' is an award winning documentary following the origins of Freestyle Footbag, a little kno...</p></div>
                   
                   
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                      <span class="badge activity-badge">Required</span>
-                      <span class="badge bg-sagedark text-white ms-1">watch</span>
-                      <span class="badge bg-success launched-badge d-none">Launched</span>
-                    </div>
-                    <a href="https://www.youtube.com/watch?v=DROAjjUY8b4" target="_blank" rel="noopener noreferrer"
-                       class="btn btn-outline-primary btn-sm launch-btn"
-                       aria-label="Launch Freestyle: A Footbag Story (Documentary, 2024) - YouTube (opens in new tab)">
-                      Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
-                    </a>
+                  <div class="bookmark-badges mb-2">
+                    <span class="badge text-bg-primary">Required</span>
+                    
                   </div>
+                  <a href="https://www.youtube.com/watch?v=DROAjjUY8b4" target="_blank" rel="noopener noreferrer"
+                     class="btn btn-success btn-lg launch-btn"
+                     onclick="trackLaunch(this)"
+                     data-step="3" 
+                     data-bookmark="0"
+                     aria-label="Launch Freestyle: A Footbag Story (Documentary, 2024) - YouTube (opens in new tab)">
+                    Launch <i class="fa fa-external-link-alt ms-1" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1532,12 +1377,12 @@ body.dark-mode img:not([src*=".svg"]) {
     </section>
   </main>
   
-  <footer class="mt-5 pt-4 border-top text-muted small" role="contentinfo">
+  <footer class="mt-5 pt-4 border-top text-body-secondary small" role="contentinfo">
     
     <div class="pathway-metadata">
       <p>Created by: itr8tech</p>
       
-      <p>Generated on: <time datetime="2025-07-07T00:37:24.985Z">2025-07-06</time></p>
+      <p>Generated on: <time datetime="2025-07-07T02:39:22.964Z">2025-07-06</time></p>
     </div>
   </footer>
 </div>
