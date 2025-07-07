@@ -89,7 +89,8 @@
             "lastChecked": 1751855448756,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 4
           }
         ]
       },
@@ -709,7 +710,8 @@
             "lastChecked": 1751855462977,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 8
           }
         ],
         "name": "Misc",
@@ -833,7 +835,8 @@
             "lastChecked": 1751855464323,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 1
           },
           {
             "url": "http://footbag.org/",
@@ -848,7 +851,8 @@
             "status": "Error",
             "checkError": "Load failed",
             "isValid": false,
-            "available": false
+            "available": false,
+            "sortOrder": 2
           },
           {
             "url": "https://itr8.tech/",
@@ -862,7 +866,8 @@
             "lastChecked": 1751855464348,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 3
           },
           {
             "url": "https://www.youtube.com/@FlipsiderFootbag",
@@ -876,7 +881,8 @@
             "lastChecked": 1751855464729,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 4
           },
           {
             "url": "https://app.bchydro.com/accounts-billing/rates-energy-use/electricity-rates/residential-rates/time-of-day.html",
@@ -890,7 +896,8 @@
             "lastChecked": 1751855464865,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 5
           }
         ]
       },
@@ -914,7 +921,8 @@
             "checkError": null,
             "isValid": true,
             "visited": true,
-            "visitedAt": 1751856063401
+            "visitedAt": 1751856063401,
+            "sortOrder": 0
           }
         ]
       },
@@ -936,7 +944,8 @@
             "available": true,
             "redirectUrl": null,
             "checkError": null,
-            "isValid": true
+            "isValid": true,
+            "sortOrder": 0
           },
           {
             "url": "https://vimeo.com/153842457",
@@ -950,7 +959,8 @@
             "lastChecked": 1751855466351,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 1
           }
         ]
       },
@@ -971,7 +981,8 @@
             "lastChecked": 1751855467046,
             "status": "OK",
             "isValid": true,
-            "available": true
+            "available": true,
+            "sortOrder": 0
           }
         ]
       }
