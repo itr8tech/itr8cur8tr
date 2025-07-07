@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>Full Stack Developer</title>
-    <description>Good links to all parts of the stack, even though that&#039;s a ridiculously large area.</description>
+    <description>Good links to all parts of the stack, even though that&#039;s a ridiculously large area. Bump.</description>
     <link>pathcurator://pathway/1746391996332</link>
     <atom:link href="pathcurator://pathway/1746391996332/rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 06 Jul 2025 02:41:00 GMT</lastBuildDate>
-    <pubDate>Sun, 06 Jul 2025 02:40:48 GMT</pubDate>
+    <lastBuildDate>Mon, 07 Jul 2025 02:38:59 GMT</lastBuildDate>
+    <pubDate>Sun, 06 Jul 2025 23:10:38 GMT</pubDate>
     <generator>Path Curator Extension</generator>
     <language>en-US</language>
     <managingEditor>allanhaggett</managingEditor>
     <webMaster>itr8tech</webMaster>
     <contentWarning>!!!WARNING: Please basically ignore this pathway. This is an ad hoc development pathway that I&#039;ve been using to quickly test this system. The links contained within work but many times the &quot;curator context&quot; is comedically incomplete or wrong. </contentWarning>
     <item>
+        <title>Introduction to Web Accessibility | Web Accessibility Initiative (WAI) | W3C</title>
+        <description><![CDATA[<p>Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
+        <link>https://www.w3.org/WAI/fundamentals/accessibility-intro/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-0-0</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Accessibility</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
         <title>A11Y Project</title>
         <description><![CDATA[<p>Learn the fundamentals and principles behind accessible design</p><p><strong>Context:</strong> Start here.</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
         <link>https://www.a11yproject.com</link>
-        <guid isPermaLink="false">1746391996332-bookmark-0-0</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-0-1</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
@@ -34,7 +47,7 @@ For many people, technology makes things easier. For people with disabilities, t
 The Web is fundamentally designed to work for all people, whatever their hardware, software, language, location, or ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability.
 – (W3C - Accessibility)</p><p><strong>Context:</strong> A wonderful resource that will take you far.</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
         <link>https://developer.mozilla.org/en-US/docs/Web/Accessibility</link>
-        <guid isPermaLink="false">1746391996332-bookmark-0-1</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-0-2</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
@@ -44,16 +57,29 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
         <contentType>Read</contentType>
     </item>
     <item>
-        <title>Introduction to Web Accessibility | Web Accessibility Initiative (WAI) | W3C</title>
-        <description><![CDATA[<p>Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
-        <link>https://www.w3.org/WAI/fundamentals/accessibility-intro/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-0-2</guid>
+        <title>Semantics - MDN Web Docs Glossary: Definitions of Web-related terms | MDN</title>
+        <description><![CDATA[<p>In programming, Semantics refers to the meaning of a piece of code — for example &quot;what effect does running that line of JavaScript have?&quot;, or &quot;what purpose or role does that HTML element have&quot; (rather than &quot;what does it look like?&quot;.)</p><p><strong>Context:</strong> Learn this stuff deeply. Knowing how to structure HTML well will serve you well.</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
+        <link>https://developer.mozilla.org/en-US/docs/Glossary/Semantics</link>
+        <guid isPermaLink="false">1746391996332-bookmark-0-3</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Accessibility</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>Iterate Technologies - Software Development</title>
+        <description><![CDATA[<p>Accessibility consultant.</p><p><strong>Context:</strong> SELF PLUG</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
+        <link>https://itr8.tech/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-0-4</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Accessibility</stepName>
         <stepUrl>pathcurator://pathway/1746391996332/step/0</stepUrl>
-        <required>Required</required>
+        <required>Bonus</required>
         <contentType>read</contentType>
     </item>
     <item>
@@ -306,147 +332,15 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
         <contentType>Read</contentType>
     </item>
     <item>
-        <title>Semantics - MDN Web Docs Glossary: Definitions of Web-related terms | MDN</title>
-        <description><![CDATA[<p>In programming, Semantics refers to the meaning of a piece of code — for example &quot;what effect does running that line of JavaScript have?&quot;, or &quot;what purpose or role does that HTML element have&quot; (rather than &quot;what does it look like?&quot;.)</p><p><strong>Context:</strong> Learn this stuff deeply. Knowing how to structure HTML well will serve you well.</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
-        <link>https://developer.mozilla.org/en-US/docs/Glossary/Semantics</link>
-        <guid isPermaLink="false">1746391996332-bookmark-3-8</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>Read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Front End</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/3</stepUrl>
-        <required>Required</required>
-        <contentType>Read</contentType>
-    </item>
-    <item>
-        <title>5 Principles of Exceptional Case Studies in UX Portfolios | UX Tools</title>
-        <description><![CDATA[<p>Principles to help you write unique and compelling UX Design case studies for your portfolio.</p><p><strong>Context:</strong> Because iut&#039;s good.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios/</link>
+        <title>Just Ask! for Github organization access</title>
+        <description><![CDATA[<p>Just Ask! A github app to just ask for Github organization access</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
+        <link>https://just-ask-web-bdec76-prod.apps.silver.devops.gov.bc.ca/</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-0</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>Read</contentType>
-    </item>
-    <item>
-        <title>Archivematica: open-source digital preservation system</title>
-        <description><![CDATA[<p>Archivematica: open-source digital preservation system</p><p><strong>Context:</strong> It doesn&#039;t matter how good your system is for taking backups if you never try to restore from those backups.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://www.archivematica.org/en/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-1</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>Read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>Read</contentType>
-    </item>
-    <item>
-        <title>WakaTime - Dashboards for developers</title>
-        <description><![CDATA[<p>Open source IDE plugins for programmers.</p><p><strong>Context:</strong> You might be asked to track how much time you&#039;re spending on different projects.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://wakatime.com/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-2</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>Read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>Read</contentType>
-    </item>
-    <item>
-        <title>Linux: An Introduction to User Management - The New Stack</title>
-        <description><![CDATA[<p>Should you use useradd or adduser? This tutorial will teach you how to manage other users on your Linux machine.</p><p><strong>Context:</strong> Basics! Gotta learn it.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://thenewstack.io/linux-an-introduction-to-user-management/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-3</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>Read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>Read</contentType>
-    </item>
-    <item>
-        <title>Download Government Marks - Province of British Columbia</title>
-        <description><![CDATA[<p>Download provincial government marks (logos)</p><p><strong>Context:</strong> You&#039;re gonna need these.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/download-marks</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-4</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>Read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>Read</contentType>
-    </item>
-    <item>
-        <title>ChatGPT</title>
-        <description><![CDATA[<p>ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.</p><p><strong>Context:</strong> I mean, don&#039;t use it if it doesn&#039;t do anything for you, but I depend on this stuff.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://chatgpt.com/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-5</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
-        <title>Mozilla — Internet for people, not profit</title>
-        <description><![CDATA[<p>We’re working to put control of the internet back in the hands of the people using it.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://www.mozilla.org/en-CA/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-6</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
-        <title>Podman</title>
-        <description><![CDATA[<p>The best free &amp; open source container tools
-
-Manage containers, pods, and images with Podman. Seamlessly work with containers and Kubernetes from your local environment.</p><p><strong>Context:</strong> Containers are not the sole purview of Docker. Much of our work revolves around Docker, but it is recommended that we learn something else too.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
-        <link>https://podman.io/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-4-7</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Misc</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
-        <title>GitHub · Build and ship software on a single, collaborative platform · GitHub</title>
-        <description><![CDATA[<p>GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.</p><p><strong>Context:</strong> The most popular paltform for managing git repos.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
-        <link>https://github.com/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-5-0</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
-        <title>Just Ask! for Github organization access</title>
-        <description><![CDATA[<p>Just Ask! A github app to just ask for Github organization access</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
-        <link>https://just-ask-web-bdec76-prod.apps.silver.devops.gov.bc.ca/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-5-1</guid>
-        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
-        <category>Read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Platforms</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
         <required>Required</required>
         <contentType>Read</contentType>
     </item>
@@ -454,12 +348,12 @@ Manage containers, pods, and images with Podman. Seamlessly work with containers
         <title>BC Developer Guide | A guide to application development for the B.C. government. | B.C. government DevHub</title>
         <description><![CDATA[<p>The B.C. government DevHub is a place to access common technical documentation, community knowledge bases, code samples and APIs.</p><p><strong>Context:</strong> Do yourself a favor and know this stuff.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#ministry-specific-private-organizations-in-github-enterprise</link>
-        <guid isPermaLink="false">1746391996332-bookmark-5-2</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-4-1</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
         <required>Required</required>
         <contentType>Read</contentType>
     </item>
@@ -467,12 +361,12 @@ Manage containers, pods, and images with Podman. Seamlessly work with containers
         <title>Common Hosted Single Sign-on (CSS)</title>
         <description><![CDATA[<p>The request process workflow tool for the RedHat SSO Dev Exchange service</p><p><strong>Context:</strong> We use this for Moodle and it should be preferred solution for SSO.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://bcgov.github.io/sso-requests/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-5-3</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-4-2</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
         <required>Required</required>
         <contentType>Read</contentType>
     </item>
@@ -480,12 +374,12 @@ Manage containers, pods, and images with Podman. Seamlessly work with containers
         <title>PSA Learning System Homepage</title>
         <description><![CDATA[<p>Main registration platform for courses.</p><p><strong>Context:</strong> It&#039;s not the only game in town.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://learning.gov.bc.ca/psc/CHIPSPLM/EMPLOYEE/ELM/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?</link>
-        <guid isPermaLink="false">1746391996332-bookmark-5-4</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-4-3</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
         <required>Required</required>
         <contentType>Read</contentType>
     </item>
@@ -493,12 +387,12 @@ Manage containers, pods, and images with Podman. Seamlessly work with containers
         <title>Permalinks — Eleventy</title>
         <description><![CDATA[<p>Permalinks — Eleventy</p><p><strong>Context:</strong> Permalinks are more important than you might imagine.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://www.11ty.dev/docs/permalinks/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-5-5</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-4-4</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
         <required>Required</required>
         <contentType>Read</contentType>
     </item>
@@ -506,14 +400,131 @@ Manage containers, pods, and images with Podman. Seamlessly work with containers
         <title>API Services Portal | API Directory</title>
         <description><![CDATA[<p>BC Gov API Directory Find an API and request an API key to get started</p><p><strong>Context:</strong> Use these where you can.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://api.gov.bc.ca/devportal/api-directory</link>
-        <guid isPermaLink="false">1746391996332-bookmark-5-6</guid>
+        <guid isPermaLink="false">1746391996332-bookmark-4-5</guid>
         <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/4</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>5 Principles of Exceptional Case Studies in UX Portfolios | UX Tools</title>
+        <description><![CDATA[<p>Principles to help you write unique and compelling UX Design case studies for your portfolio.</p><p><strong>Context:</strong> Because iut&#039;s good.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-0</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
         <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
         <required>Required</required>
         <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>Archivematica: open-source digital preservation system</title>
+        <description><![CDATA[<p>Archivematica: open-source digital preservation system</p><p><strong>Context:</strong> It doesn&#039;t matter how good your system is for taking backups if you never try to restore from those backups.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://www.archivematica.org/en/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-1</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>WakaTime - Dashboards for developers</title>
+        <description><![CDATA[<p>Open source IDE plugins for programmers.</p><p><strong>Context:</strong> You might be asked to track how much time you&#039;re spending on different projects.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://wakatime.com/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-2</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>Linux: An Introduction to User Management - The New Stack</title>
+        <description><![CDATA[<p>Should you use useradd or adduser? This tutorial will teach you how to manage other users on your Linux machine.</p><p><strong>Context:</strong> Basics! Gotta learn it.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://thenewstack.io/linux-an-introduction-to-user-management/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-3</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>Zotero | Your personal research assistant</title>
+        <description><![CDATA[<p>Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.</p><p><strong>Context:</strong> Might be cool I dunno 🤷</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://www.zotero.org/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-4</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>Download Government Marks - Province of British Columbia</title>
+        <description><![CDATA[<p>Download provincial government marks (logos)</p><p><strong>Context:</strong> You&#039;re gonna need these.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/download-marks</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-5</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
+    </item>
+    <item>
+        <title>ChatGPT</title>
+        <description><![CDATA[<p>ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.</p><p><strong>Context:</strong> I mean, don&#039;t use it if it doesn&#039;t do anything for you, but I depend on this stuff.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://chatgpt.com/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-6</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Mozilla — Internet for people, not profit</title>
+        <description><![CDATA[<p>We’re working to put control of the internet back in the hands of the people using it.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://www.mozilla.org/en-CA/</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-7</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Library Log in</title>
+        <description><![CDATA[<p>nfkejwbgielwb</p><p><strong>Context:</strong> do it!</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
+        <link>https://sierra-app.virl.bc.ca/iii/cas/login?service=https://sierra-app.virl.bc.ca:443/patroninfo~S45/1366561/topIIITICKET&amp;scope=45</link>
+        <guid isPermaLink="false">1746391996332-bookmark-5-8</guid>
+        <pubDate>Sun, 04 May 2025 20:53:16 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
+        <stepName>Misc</stepName>
+        <stepUrl>pathcurator://pathway/1746391996332/step/5</stepUrl>
+        <required>Bonus</required>
+        <contentType>read</contentType>
     </item>
 </channel>
 </rss>
