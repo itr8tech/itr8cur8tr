@@ -5,71 +5,19 @@
     <description>Good links to all parts of the stack, even though that&#039;s a ridiculously large area. Bump.</description>
     <link>pathcurator://pathway/1746391996332</link>
     <atom:link href="pathcurator://pathway/1746391996332/rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 09 Jul 2025 03:11:52 GMT</lastBuildDate>
-    <pubDate>Wed, 09 Jul 2025 03:11:34 GMT</pubDate>
+    <lastBuildDate>Wed, 09 Jul 2025 21:07:24 GMT</lastBuildDate>
+    <pubDate>Tue, 08 Jul 2025 20:59:37 GMT</pubDate>
     <generator>Path Curator Extension</generator>
     <language>en-US</language>
     <managingEditor>allanhaggett</managingEditor>
     <webMaster>itr8tech</webMaster>
     <contentWarning>!!!WARNING: Please basically ignore this pathway. This is an ad hoc development pathway that I&#039;ve been using to quickly test this system. The links contained within work but many times the &quot;curator context&quot; is comedically incomplete or wrong. </contentWarning>
     <item>
-        <title>LM Studio - Discover, download, and run local LLMs</title>
-        <description><![CDATA[<p>Run Llama, Gemma 3, DeepSeek locally on your computer.</p><p><strong>Context:</strong> Local models FTW</p><p><strong>Step Objective:</strong> Be famailiar with the tools available to us.</p>]]></description>
-        <link>https://lmstudio.ai/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-6-3</guid>
-        <pubDate>Thu, 10 Jul 2025 02:11:52 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Large Language Models</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/6</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
-        <title>ChatGPT</title>
-        <description><![CDATA[<p>ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.</p><p><strong>Context:</strong> Ties in with copilot</p><p><strong>Step Objective:</strong> Be famailiar with the tools available to us.</p>]]></description>
-        <link>https://chatgpt.com/</link>
-        <guid isPermaLink="false">1746391996332-bookmark-6-2</guid>
-        <pubDate>Thu, 10 Jul 2025 01:11:52 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Large Language Models</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/6</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
-        <title>Claude</title>
-        <description><![CDATA[<p>Talk with Claude, an AI assistant from Anthropic</p><p><strong>Context:</strong> A good model! Claude Code rules.</p><p><strong>Step Objective:</strong> Be famailiar with the tools available to us.</p>]]></description>
-        <link>https://claude.ai/new</link>
-        <guid isPermaLink="false">1746391996332-bookmark-6-1</guid>
-        <pubDate>Thu, 10 Jul 2025 00:11:52 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Large Language Models</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/6</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
-        <title>GitHub Copilot · Your AI pair programmer</title>
-        <description><![CDATA[<p>GitHub Copilot works alongside you directly in your editor, suggesting whole lines or entire functions for you.</p><p><strong>Context:</strong> This is what we have access to in BCPS officially.</p><p><strong>Step Objective:</strong> Be famailiar with the tools available to us.</p>]]></description>
-        <link>https://github.com/features/copilot</link>
-        <guid isPermaLink="false">1746391996332-bookmark-6-0</guid>
-        <pubDate>Wed, 09 Jul 2025 23:11:52 GMT</pubDate>
-        <category>read</category>
-        <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
-        <stepName>Large Language Models</stepName>
-        <stepUrl>pathcurator://pathway/1746391996332/step/6</stepUrl>
-        <required>Required</required>
-        <contentType>read</contentType>
-    </item>
-    <item>
         <title>Library Log in</title>
         <description><![CDATA[<p>nfkejwbgielwb</p><p><strong>Context:</strong> do it!</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://sierra-app.virl.bc.ca/iii/cas/login?service=https://sierra-app.virl.bc.ca:443/patroninfo~S45/1366561/topIIITICKET&amp;scope=45</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-8</guid>
-        <pubDate>Wed, 09 Jul 2025 11:11:52 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 05:07:24 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -82,7 +30,7 @@
         <description><![CDATA[<p>We’re working to put control of the internet back in the hands of the people using it.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://www.mozilla.org/en-CA/</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-7</guid>
-        <pubDate>Wed, 09 Jul 2025 10:11:52 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 04:07:24 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -95,7 +43,7 @@
         <description><![CDATA[<p>ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.</p><p><strong>Context:</strong> I mean, don&#039;t use it if it doesn&#039;t do anything for you, but I depend on this stuff.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://chatgpt.com/</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-6</guid>
-        <pubDate>Wed, 09 Jul 2025 09:11:52 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 03:07:24 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -108,7 +56,7 @@
         <description><![CDATA[<p>Download provincial government marks (logos)</p><p><strong>Context:</strong> You&#039;re gonna need these.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://www2.gov.bc.ca/gov/content/governments/services-for-government/policies-procedures/bc-visual-identity/download-marks</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-5</guid>
-        <pubDate>Wed, 09 Jul 2025 08:11:52 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 02:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -121,7 +69,7 @@
         <description><![CDATA[<p>Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.</p><p><strong>Context:</strong> Might be cool I dunno 🤷</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://www.zotero.org/</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-4</guid>
-        <pubDate>Wed, 09 Jul 2025 07:11:52 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 01:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -134,7 +82,7 @@
         <description><![CDATA[<p>Should you use useradd or adduser? This tutorial will teach you how to manage other users on your Linux machine.</p><p><strong>Context:</strong> Basics! Gotta learn it.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://thenewstack.io/linux-an-introduction-to-user-management/</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-3</guid>
-        <pubDate>Wed, 09 Jul 2025 06:11:52 GMT</pubDate>
+        <pubDate>Thu, 10 Jul 2025 00:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -147,7 +95,7 @@
         <description><![CDATA[<p>Open source IDE plugins for programmers.</p><p><strong>Context:</strong> You might be asked to track how much time you&#039;re spending on different projects.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://wakatime.com/</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-2</guid>
-        <pubDate>Wed, 09 Jul 2025 05:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 23:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -160,7 +108,7 @@
         <description><![CDATA[<p>Archivematica: open-source digital preservation system</p><p><strong>Context:</strong> It doesn&#039;t matter how good your system is for taking backups if you never try to restore from those backups.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://www.archivematica.org/en/</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-1</guid>
-        <pubDate>Wed, 09 Jul 2025 04:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 22:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -173,7 +121,7 @@
         <description><![CDATA[<p>Principles to help you write unique and compelling UX Design case studies for your portfolio.</p><p><strong>Context:</strong> Because iut&#039;s good.</p><p><strong>Step Objective:</strong> Random links related to dev but not dev directly.</p>]]></description>
         <link>https://uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios/</link>
         <guid isPermaLink="false">1746391996332-bookmark-5-0</guid>
-        <pubDate>Wed, 09 Jul 2025 03:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 21:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Misc</stepName>
@@ -186,7 +134,7 @@
         <description><![CDATA[<p>BC Gov API Directory Find an API and request an API key to get started</p><p><strong>Context:</strong> Use these where you can.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://api.gov.bc.ca/devportal/api-directory</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-5</guid>
-        <pubDate>Tue, 08 Jul 2025 12:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 06:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
@@ -199,7 +147,7 @@
         <description><![CDATA[<p>Permalinks — Eleventy</p><p><strong>Context:</strong> Permalinks are more important than you might imagine.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://www.11ty.dev/docs/permalinks/</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-4</guid>
-        <pubDate>Tue, 08 Jul 2025 11:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 05:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
@@ -212,7 +160,7 @@
         <description><![CDATA[<p>Main registration platform for courses.</p><p><strong>Context:</strong> It&#039;s not the only game in town.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://learning.gov.bc.ca/psc/CHIPSPLM/EMPLOYEE/ELM/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL?</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-3</guid>
-        <pubDate>Tue, 08 Jul 2025 10:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 04:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
@@ -225,7 +173,7 @@
         <description><![CDATA[<p>The request process workflow tool for the RedHat SSO Dev Exchange service</p><p><strong>Context:</strong> We use this for Moodle and it should be preferred solution for SSO.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://bcgov.github.io/sso-requests/</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-2</guid>
-        <pubDate>Tue, 08 Jul 2025 09:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 03:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
@@ -238,7 +186,7 @@
         <description><![CDATA[<p>The B.C. government DevHub is a place to access common technical documentation, community knowledge bases, code samples and APIs.</p><p><strong>Context:</strong> Do yourself a favor and know this stuff.</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://developer.gov.bc.ca/docs/default/component/bc-developer-guide/use-github-in-bcgov/bc-government-organizations-in-github/#ministry-specific-private-organizations-in-github-enterprise</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-1</guid>
-        <pubDate>Tue, 08 Jul 2025 08:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 02:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
@@ -251,7 +199,7 @@
         <description><![CDATA[<p>Just Ask! A github app to just ask for Github organization access</p><p><strong>Step Objective:</strong> All the different platforms where courses are hosted.</p>]]></description>
         <link>https://just-ask-web-bdec76-prod.apps.silver.devops.gov.bc.ca/</link>
         <guid isPermaLink="false">1746391996332-bookmark-4-0</guid>
-        <pubDate>Tue, 08 Jul 2025 07:11:52 GMT</pubDate>
+        <pubDate>Wed, 09 Jul 2025 01:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Platforms</stepName>
@@ -264,7 +212,7 @@
         <description><![CDATA[<p>Unlock Your Web Development Potential with this Beginner&#039;s Guide to HTML, CSS, and JavaScript! Learn the Fundamentals and Create Stunning Websites.</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://hackernoon.com/a-beginners-guide-to-html-css-and-javascript</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-7</guid>
-        <pubDate>Mon, 07 Jul 2025 18:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 12:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -277,7 +225,7 @@
         <description><![CDATA[<p>Webfonts were great when most computers only had a handful of good fonts pre-installed. Thanks to font creation and buying by Apple, Microsoft, Google, and other folks, most computers have good—no, great—fonts installed, and they&#039;re a great option if you want to not load a separate font.</p><p><strong>Context:</strong> BC Sans is cool and all...</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://systemfontstack.com/</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-6</guid>
-        <pubDate>Mon, 07 Jul 2025 17:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 11:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -290,7 +238,7 @@
         <description><![CDATA[<p>This link should be dead.</p><p><strong>Context:</strong> Test</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://example.tech/</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-5</guid>
-        <pubDate>Mon, 07 Jul 2025 16:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 10:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -305,7 +253,7 @@
     htmx is small (~14k min.gz’d), dependency-free, extendable, IE11 compatible &amp; has reduced code base sizes by 67% when compared with react</p><p><strong>Context:</strong> Fun stuff.</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://htmx.org/</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-4</guid>
-        <pubDate>Mon, 07 Jul 2025 15:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 09:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -318,7 +266,7 @@
         <description><![CDATA[<p>A super-fast, easy-to-use, RSS and Atom parser written in PHP.</p><p><strong>Context:</strong> More tetsing</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://www.simplepie.org/wiki/</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-3</guid>
-        <pubDate>Mon, 07 Jul 2025 14:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 08:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -331,7 +279,7 @@
         <description><![CDATA[<p>Font loading can slow page load times significantly. This article shows you how to reduce the impact.</p><p><strong>Context:</strong> Performance is king.</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://byteofdev.com/posts/speed-up-font-loading/</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-2</guid>
-        <pubDate>Mon, 07 Jul 2025 13:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 07:07:24 GMT</pubDate>
         <category>Watch</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -344,7 +292,7 @@
         <description><![CDATA[<p>We&#039;re a small team of developers and designers spread out all across the world, building tools that help other developers build better user interfaces. We cr...</p><p><strong>Context:</strong> Watch this!</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-1</guid>
-        <pubDate>Mon, 07 Jul 2025 12:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 06:07:24 GMT</pubDate>
         <category>Watch</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -357,7 +305,7 @@
         <description><![CDATA[<p>Welcome to Flexbox Froggy, a game where you help Froggy and friends by writing CSS code! Guide this frog to the lilypad on the right by using the justify-content property, which aligns items horizontally.</p><p><strong>Context:</strong> Get good at understanding this and the world is your oyster.</p><p><strong>Step Objective:</strong> All the client things. HTML, CSS, Javascript</p>]]></description>
         <link>https://flexboxfroggy.com/</link>
         <guid isPermaLink="false">1746391996332-bookmark-3-0</guid>
-        <pubDate>Mon, 07 Jul 2025 11:11:52 GMT</pubDate>
+        <pubDate>Tue, 08 Jul 2025 05:07:24 GMT</pubDate>
         <category>Participate</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Front End</stepName>
@@ -370,7 +318,7 @@
         <description><![CDATA[<p>This presentation was recorded at GOTO Chicago 2024. #GOTOcon #GOTOchgohttps://gotochgo.comMatt Godbolt - Low-level Latency Geek @MattGodbolt RESOURCEShttps:...</p><p><strong>Context:</strong> Deep stuff but yeah.</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://www.youtube.com/watch?v=-HNpim5x-IE</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-8</guid>
-        <pubDate>Sun, 06 Jul 2025 23:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 17:07:24 GMT</pubDate>
         <category>watch</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -383,7 +331,7 @@
         <description><![CDATA[<p>Mojibake (Japanese: 文字化け; IPA: [mod͡ʑibake], &#039;character transformation&#039;) is the garbled or gibberish text that is the result of text being decoded using an unintended character encoding.[1] The result is a systematic replacement of symbols with completely unrelated ones, often from a different writing system. </p><p><strong>Context:</strong> When you need to know this, also know the phrase &quot;binary bridge method.&quot;</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://en.wikipedia.org/wiki/Mojibake#Resolutions</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-7</guid>
-        <pubDate>Sun, 06 Jul 2025 22:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 16:07:24 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -396,7 +344,7 @@
         <description><![CDATA[<p>Azure AI Search, formerly Azure Cognitive Search, is knowledge retrieval system GenAI applications powered byretrieval-augmented generation (RAG). Deliver the best AI experience to every user, at any scale.</p><p><strong>Context:</strong> We may get to use this so know what it is.</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://azure.microsoft.com/en-us/products/ai-services/ai-search/</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-6</guid>
-        <pubDate>Sun, 06 Jul 2025 21:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 15:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -409,7 +357,7 @@
         <description><![CDATA[<p>nginx (&quot;engine x&quot;) is an HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server. Originally written by Igor Sysoev and distributed under the 2-clause BSD License. Enterprise distributions, commercial support and training are available from F5, Inc.</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://nginx.org/</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-5</guid>
-        <pubDate>Sun, 06 Jul 2025 20:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 14:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -422,7 +370,7 @@
         <description><![CDATA[<p>Extension for Visual Studio Code - REST Client for Visual Studio Code</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://marketplace.visualstudio.com/items?itemName=humao.rest-client</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-4</guid>
-        <pubDate>Sun, 06 Jul 2025 19:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 13:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -435,7 +383,7 @@
         <description><![CDATA[<p>Learn the basics of GitHub Actions, including core concepts and essential terminology.</p><p><strong>Context:</strong> Should be in it&#039;s own step practivally.</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://docs.github.com/en/actions/about-github-actions/understanding-github-actions</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-3</guid>
-        <pubDate>Sun, 06 Jul 2025 18:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 12:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -448,7 +396,7 @@
         <description><![CDATA[<p>Welcome to PostgREST! In this pre-tutorial we’re going to get things running so you can create your first simple API. PostgREST is a standalone web server which turns a PostgreSQL database into a RESTful API. It serves an API that is customized based on the structure of the underlying database.</p><p><strong>Context:</strong> Testing merging.</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://postgrest.org/en/stable/tutorials/tut0.html</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-2</guid>
-        <pubDate>Sun, 06 Jul 2025 17:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 11:07:24 GMT</pubDate>
         <category>Listen</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -461,7 +409,7 @@
         <description><![CDATA[<p>This guide shows you how to set up your LEMP (Nginx, MariaDB, PHP) stack easily and quickly using Docker Compose.</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://linuxiac.com/how-to-set-up-lemp-stack-with-docker-compose/</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-1</guid>
-        <pubDate>Sun, 06 Jul 2025 16:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 10:07:24 GMT</pubDate>
         <category>Participate</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -474,7 +422,7 @@
         <description><![CDATA[<p>Contribute to bcgov/sso-keycloak development by creating an account on GitHub.</p><p><strong>Context:</strong> SSO DIY</p><p><strong>Step Objective:</strong> Stuff for the backend from databases to ETL processes and basic OS stuff.</p>]]></description>
         <link>https://github.com/bcgov/sso-keycloak#specifying-an-idp-to-bypass-the-keycloak-login-page</link>
         <guid isPermaLink="false">1746391996332-bookmark-2-0</guid>
-        <pubDate>Sun, 06 Jul 2025 15:11:52 GMT</pubDate>
+        <pubDate>Mon, 07 Jul 2025 09:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Back End</stepName>
@@ -487,7 +435,7 @@
         <description><![CDATA[<p>Anonymity is not the same thing as privacy, and confusing these two concepts can weaken your online security.</p><p><strong>Step Objective:</strong> Stay safe. Put security first.</p>]]></description>
         <link>https://proton.me/blog/anonymity-vs-privacy</link>
         <guid isPermaLink="false">1746391996332-bookmark-1-2</guid>
-        <pubDate>Sat, 05 Jul 2025 21:11:52 GMT</pubDate>
+        <pubDate>Sun, 06 Jul 2025 15:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Security</stepName>
@@ -500,7 +448,7 @@
         <description><![CDATA[<p>Animal Emoji             Animal Type             Unicode Hex            ... Tagged with webdev, emoji, hexcodes, html.</p><p><strong>Step Objective:</strong> Stay safe. Put security first.</p>]]></description>
         <link>https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma</link>
         <guid isPermaLink="false">1746391996332-bookmark-1-1</guid>
-        <pubDate>Sat, 05 Jul 2025 20:11:52 GMT</pubDate>
+        <pubDate>Sun, 06 Jul 2025 14:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Security</stepName>
@@ -513,7 +461,7 @@
         <description><![CDATA[<p>This page offers a better way to create a strong, yet easy to remember, passphrase for use with encryption and security programs. Weak passwords and passphrases are one of the most common flaws in computer security. Take a few minutes and learn how to do it right. The information presented here can be used by anyone. No background in cryptography or mathematics is required. Just follow the simple steps below.</p><p><strong>Context:</strong> Good tool.</p><p><strong>Step Objective:</strong> Stay safe. Put security first.</p>]]></description>
         <link>https://theworld.com/~reinhold/diceware.html</link>
         <guid isPermaLink="false">1746391996332-bookmark-1-0</guid>
-        <pubDate>Sat, 05 Jul 2025 19:11:52 GMT</pubDate>
+        <pubDate>Sun, 06 Jul 2025 13:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Security</stepName>
@@ -526,7 +474,7 @@
         <description><![CDATA[<p>In programming, Semantics refers to the meaning of a piece of code — for example &quot;what effect does running that line of JavaScript have?&quot;, or &quot;what purpose or role does that HTML element have&quot; (rather than &quot;what does it look like?&quot;.)</p><p><strong>Context:</strong> Learn this stuff deeply. Knowing how to structure HTML well will serve you well.</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
         <link>https://developer.mozilla.org/en-US/docs/Glossary/Semantics</link>
         <guid isPermaLink="false">1746391996332-bookmark-0-3</guid>
-        <pubDate>Sat, 05 Jul 2025 02:11:52 GMT</pubDate>
+        <pubDate>Sat, 05 Jul 2025 20:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Accessibility</stepName>
@@ -539,7 +487,7 @@
         <description><![CDATA[<p>Learn the fundamentals and principles behind accessible design</p><p><strong>Context:</strong> Start here.</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
         <link>https://www.a11yproject.com</link>
         <guid isPermaLink="false">1746391996332-bookmark-0-2</guid>
-        <pubDate>Sat, 05 Jul 2025 01:11:52 GMT</pubDate>
+        <pubDate>Sat, 05 Jul 2025 19:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Accessibility</stepName>
@@ -557,7 +505,7 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
 – (W3C - Accessibility)</p><p><strong>Context:</strong> A wonderful resource that will take you far.</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
         <link>https://developer.mozilla.org/en-US/docs/Web/Accessibility</link>
         <guid isPermaLink="false">1746391996332-bookmark-0-1</guid>
-        <pubDate>Sat, 05 Jul 2025 00:11:52 GMT</pubDate>
+        <pubDate>Sat, 05 Jul 2025 18:07:24 GMT</pubDate>
         <category>Read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Accessibility</stepName>
@@ -570,7 +518,7 @@ The Web is fundamentally designed to work for all people, whatever their hardwar
         <description><![CDATA[<p>Accessibility resources free online from the international standards organization: W3C Web Accessibility Initiative (WAI).</p><p><strong>Step Objective:</strong> A broad but essential topic that should be considered in the early planning stages of any project and not treated as an afterthought. It takes more that passing some automated tests to have a good accessibility story. These resources will show you how.</p>]]></description>
         <link>https://www.w3.org/WAI/fundamentals/accessibility-intro/</link>
         <guid isPermaLink="false">1746391996332-bookmark-0-0</guid>
-        <pubDate>Fri, 04 Jul 2025 23:11:52 GMT</pubDate>
+        <pubDate>Sat, 05 Jul 2025 17:07:24 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1746391996332</pathwayUrl>
         <stepName>Accessibility</stepName>
