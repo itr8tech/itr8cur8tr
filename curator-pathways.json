@@ -545,7 +545,7 @@
     ],
     "topic": "Respectful Workplace",
     "createdDate": "2024-06-15T04:17:27.000Z",
-    "modifiedDate": "2025-07-17T06:43:59.613Z",
+    "modifiedDate": "2025-08-15T20:52:21.222Z",
     "title": "Respectful Workplace",
     "versionHistory": [
       {
@@ -1315,7 +1315,7 @@
     ],
     "id": "1746165855980",
     "createdDate": "2025-05-02T06:04:15.980Z",
-    "modifiedDate": "2025-07-17T06:43:59.614Z",
+    "modifiedDate": "2025-08-15T20:52:21.223Z",
     "title": "Anti-Racism in the BC Public Service"
   },
   {
@@ -2147,7 +2147,7 @@
     "createdBy": "allanhaggett",
     "id": "1746391996332",
     "createdDate": "2025-05-04T20:53:16.332Z",
-    "modifiedDate": "2025-07-17T06:43:59.616Z",
+    "modifiedDate": "2025-08-15T20:52:21.225Z",
     "title": "Full Stack Developer"
   },
   {
@@ -2420,7 +2420,53 @@
     "createdBy": "itr8tech",
     "id": "1751752543704",
     "createdDate": "2025-07-05T21:55:43.704Z",
-    "modifiedDate": "2025-07-17T06:43:59.617Z",
+    "modifiedDate": "2025-08-15T20:52:21.226Z",
     "title": "Hacky Sack"
+  },
+  {
+    "name": "The Ability to Access",
+    "description": "Accessibility is a broad descriptor generally misapplied to a narrow set of users. Every person has accessibility needs which evolve. It's not just a matter of empathy for those unfortunate enough to have a visible disability. Accessible technologies are good technologies which benefit the able-bodied as much or more as the people they were designed to assist. Here is a selection of links which support that assertion.",
+    "contentWarning": "",
+    "acknowledgments": "",
+    "steps": [
+      {
+        "name": "World Wide Web",
+        "objective": "As if general principles of accessibility weren't complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.",
+        "pauseAndReflect": "",
+        "bookmarks": []
+      }
+    ],
+    "created": 1755290377619,
+    "versionHistory": [
+      {
+        "hash": "3nj3zf-2025-08-15",
+        "timestamp": 1755291141158,
+        "stepCount": 1,
+        "bookmarkCount": 0,
+        "modifiedBy": "Unknown"
+      },
+      {
+        "hash": "orlnt9-2025-08-15",
+        "timestamp": 1755290430970,
+        "stepCount": 0,
+        "bookmarkCount": 0,
+        "modifiedBy": "Unknown"
+      },
+      {
+        "hash": "1kcu3j-2025-08-15",
+        "timestamp": 1755290377619,
+        "stepCount": 0,
+        "bookmarkCount": 0,
+        "modifiedBy": "Unknown"
+      }
+    ],
+    "version": "3nj3zf-2025-08-15",
+    "lastUpdated": 1755291141158,
+    "modifiedBy": "Unknown",
+    "createdBy": "Unknown",
+    "id": "1755290377619",
+    "createdDate": "2025-08-15T20:39:37.619Z",
+    "modifiedDate": "2025-08-15T20:52:21.227Z",
+    "title": "The Ability to Access"
   }
 ]
