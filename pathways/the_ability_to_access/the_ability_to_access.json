@@ -1,0 +1,60 @@
+[
+  {
+    "name": "The Ability to Access",
+    "description": "Accessibility is a broad descriptor generally misapplied to a narrow set of users. Every person has accessibility needs which evolve. It's not just a matter of empathy for those unfortunate enough to have a visible disability. Accessible technologies are good technologies which benefit the able-bodied as much or more as the people they were designed to assist. Here is a selection of links which support that assertion.",
+    "contentWarning": "",
+    "acknowledgments": "",
+    "steps": [
+      {
+        "name": "World Wide Web",
+        "objective": "As if general principles of accessibility weren't complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.",
+        "pauseAndReflect": "",
+        "bookmarks": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+            "title": "Accessibility | MDN",
+            "description": "Accessibility (often abbreviated to A11y — as in, \"a\", then 11 characters, and then \"y\") in web development means enabling as many people as possible to use websites, even when those people's abilities are limited in some way.",
+            "type": "resource",
+            "contentType": "read",
+            "context": "Not fan of describing accessibility solely in terms of peoples limitations but this resource is fantastic and vital to understanding how to apply assistive technologies in many different ways.",
+            "required": true,
+            "addedAt": 1755291687302,
+            "sortOrder": 0
+          }
+        ]
+      }
+    ],
+    "created": 1755290377619,
+    "versionHistory": [
+      {
+        "hash": "3nj3zf-2025-08-15",
+        "timestamp": 1755291141158,
+        "stepCount": 1,
+        "bookmarkCount": 0,
+        "modifiedBy": "Unknown"
+      },
+      {
+        "hash": "orlnt9-2025-08-15",
+        "timestamp": 1755290430970,
+        "stepCount": 0,
+        "bookmarkCount": 0,
+        "modifiedBy": "Unknown"
+      },
+      {
+        "hash": "1kcu3j-2025-08-15",
+        "timestamp": 1755290377619,
+        "stepCount": 0,
+        "bookmarkCount": 0,
+        "modifiedBy": "Unknown"
+      }
+    ],
+    "version": "3nj3zf-2025-08-15",
+    "lastUpdated": 1755291687302,
+    "modifiedBy": "Unknown",
+    "createdBy": "Unknown",
+    "id": "1755290377619",
+    "createdDate": "2025-08-15T20:39:37.619Z",
+    "modifiedDate": "2025-08-15T21:01:27.310Z",
+    "title": "The Ability to Access"
+  }
+]
