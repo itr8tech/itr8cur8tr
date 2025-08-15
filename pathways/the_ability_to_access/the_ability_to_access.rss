@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>The Ability to Access</title>
+    <description>Accessibility is a broad descriptor generally misapplied to a narrow set of users. Every person has accessibility needs which evolve. It&#039;s not just a matter of empathy for those unfortunate enough to have a visible disability. Accessible technologies are good technologies which benefit the able-bodied as much or more as the people they were designed to assist. Here is a selection of links which support that assertion.</description>
+    <link>pathcurator://pathway/1755290377619</link>
+    <atom:link href="pathcurator://pathway/1755290377619/rss" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 21:44:23 GMT</lastBuildDate>
+    <pubDate>Fri, 15 Aug 2025 21:01:27 GMT</pubDate>
+    <generator>Path Curator Extension</generator>
+    <language>en-US</language>
+    <managingEditor>Unknown</managingEditor>
+    <webMaster>Unknown</webMaster>
+    <item>
+        <title>Accessibility | MDN</title>
+        <description><![CDATA[<p>Accessibility (often abbreviated to A11y — as in, &quot;a&quot;, then 11 characters, and then &quot;y&quot;) in web development means enabling as many people as possible to use websites, even when those people&#039;s abilities are limited in some way.</p><p><strong>Context:</strong> Not fan of describing accessibility solely in terms of peoples limitations but this resource is fantastic and vital to understanding how to apply assistive technologies in many different ways.</p><p><strong>Step Objective:</strong> As if general principles of accessibility weren&#039;t complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.</p>]]></description>
+        <link>https://developer.mozilla.org/en-US/docs/Web/Accessibility</link>
+        <guid isPermaLink="false">1755290377619-bookmark-0-0</guid>
+        <pubDate>Mon, 11 Aug 2025 17:44:23 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1755290377619</pathwayUrl>
+        <stepName>World Wide Web</stepName>
+        <stepUrl>pathcurator://pathway/1755290377619/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+</channel>
+</rss>
