@@ -1,7 +1,7 @@
 [
   {
     "name": "The Ability to Access",
-    "description": "Accessibility is a broad descriptor generally misapplied to a narrow set of users. Every person has accessibility needs which evolve. It's not just a matter of empathy for those unfortunate enough to have a visible disability. Accessible technologies are good technologies which benefit the able-bodied as much or more as the people they were designed to assist. Here is a selection of links which support that assertion.",
+    "description": "Accessibility is a broad descriptor generally misapplied to a narrow set of users. Every person has accessibility needs which evolve. It's not just a matter of empathy for those who have a disabilities that we're used to thinking about. Accessible technologies are good technologies which benefit everyone as much or more as the people they were designed to assist. Here is a selection of links which support that assertion.",
     "contentWarning": "",
     "acknowledgments": "",
     "steps": [
@@ -11,6 +11,22 @@
         "pauseAndReflect": "",
         "bookmarks": [
           {
+            "title": "Introduction to Web Accessibility",
+            "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+            "description": "When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.\n\nMaking the web accessible benefits individuals, businesses, and society. International web standards define what is needed for accessibility.",
+            "context": "One of those fundamental places that defines the standards.",
+            "type": "Required",
+            "required": true,
+            "contentType": "Read",
+            "added": 1755368747054,
+            "lastChecked": null,
+            "status": null,
+            "available": null,
+            "redirectUrl": null,
+            "checkError": null,
+            "sortOrder": 0
+          },
+          {
             "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
             "title": "Accessibility | MDN",
             "description": "Accessibility (often abbreviated to A11y — as in, \"a\", then 11 characters, and then \"y\") in web development means enabling as many people as possible to use websites, even when those people's abilities are limited in some way.",
@@ -19,13 +35,95 @@
             "context": "Not fan of describing accessibility solely in terms of peoples limitations but this resource is fantastic and vital to understanding how to apply assistive technologies in many different ways.",
             "required": true,
             "addedAt": 1755291687302,
-            "sortOrder": 0
+            "sortOrder": 1
+          },
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics",
+            "title": "Semantics - Glossary | MDN",
+            "description": "In programming, Semantics refers to the meaning of a piece of code — for example \"what effect does running that line of JavaScript have?\", or \"what purpose or role does that HTML element have\" (rather than \"what does it look like?\".)",
+            "type": "resource",
+            "contentType": "read",
+            "context": "Knowing this what markup to use for content is a vital skill that is fundamental to good accessibility.",
+            "required": true,
+            "addedAt": 1755400618666,
+            "sortOrder": 2
+          },
+          {
+            "url": "https://www.a11yproject.com/",
+            "title": "Home - The A11Y Project",
+            "description": "The A11Y Project is a community-driven effort to make digital accessibility easier.",
+            "type": "resource",
+            "contentType": "read",
+            "context": "Another great authoritative place to go to get comprehensive info on how to apply the standards and exploring the people in the community.",
+            "required": true,
+            "addedAt": 1755369890992,
+            "sortOrder": 3
+          },
+          {
+            "url": "https://www.accessarmada.com/blog/i-need-an-accessible-hero/",
+            "title": "I Need an Accessible Hero | Access Armada",
+            "description": "An accessible hero image experience is important in serving your entire user base and avoiding obstacles before users get to know you better.",
+            "type": "resource",
+            "contentType": "read",
+            "context": "I see this far too often. This article doesn't touch on the performance impacts of unoptimized images used for these purposes but the principles it does touch on are all very important considerations.",
+            "required": true,
+            "addedAt": 1756060514404,
+            "sortOrder": 4
           }
         ]
       }
     ],
     "created": 1755290377619,
     "versionHistory": [
+      {
+        "hash": "ymfvaa-2025-08-17",
+        "timestamp": 1755408495255,
+        "stepCount": 1,
+        "bookmarkCount": 4,
+        "modifiedBy": "itr8tech"
+      },
+      {
+        "hash": "36h214-2025-08-17",
+        "timestamp": 1755400650523,
+        "stepCount": 1,
+        "bookmarkCount": 4,
+        "modifiedBy": "itr8tech"
+      },
+      {
+        "hash": "d2c017-2025-08-16",
+        "timestamp": 1755369926343,
+        "stepCount": 1,
+        "bookmarkCount": 3,
+        "modifiedBy": "itr8tech"
+      },
+      {
+        "hash": "d2c017-2025-08-16",
+        "timestamp": 1755369899918,
+        "stepCount": 1,
+        "bookmarkCount": 3,
+        "modifiedBy": "itr8tech"
+      },
+      {
+        "hash": "okslve-2025-08-16",
+        "timestamp": 1755369431761,
+        "stepCount": 1,
+        "bookmarkCount": 2,
+        "modifiedBy": "itr8tech"
+      },
+      {
+        "hash": "1lsc7t-2025-08-16",
+        "timestamp": 1755368756992,
+        "stepCount": 1,
+        "bookmarkCount": 2,
+        "modifiedBy": "itr8tech"
+      },
+      {
+        "hash": "n24fzx-2025-08-16",
+        "timestamp": 1755368747054,
+        "stepCount": 1,
+        "bookmarkCount": 2,
+        "modifiedBy": "itr8tech"
+      },
       {
         "hash": "3nj3zf-2025-08-15",
         "timestamp": 1755291141158,
@@ -48,13 +146,14 @@
         "modifiedBy": "Unknown"
       }
     ],
-    "version": "3nj3zf-2025-08-15",
-    "lastUpdated": 1755291687302,
-    "modifiedBy": "Unknown",
+    "version": "ymfvaa-2025-08-17",
+    "lastUpdated": 1756060514404,
+    "modifiedBy": "itr8tech",
     "createdBy": "Unknown",
     "id": "1755290377619",
     "createdDate": "2025-08-15T20:39:37.619Z",
-    "modifiedDate": "2025-08-15T21:01:27.310Z",
-    "title": "The Ability to Access"
+    "modifiedDate": "2025-09-06T00:45:39.344Z",
+    "title": "The Ability to Access",
+    "sortOrder": 0
   }
 ]
