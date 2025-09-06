@@ -2,27 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>The Ability to Access</title>
-    <description>Accessibility is a broad descriptor generally misapplied to a narrow set of users. Every person has accessibility needs which evolve. It&#039;s not just a matter of empathy for those unfortunate enough to have a visible disability. Accessible technologies are good technologies which benefit the able-bodied as much or more as the people they were designed to assist. Here is a selection of links which support that assertion.</description>
+    <description>Accessibility is a broad descriptor generally misapplied to a narrow set of users. Every person has accessibility needs which evolve. It&#039;s not just a matter of empathy for those who have a disabilities that we&#039;re used to thinking about. Accessible technologies are good technologies which benefit everyone as much or more as the people they were designed to assist. Here is a selection of links which support that assertion.</description>
     <link>pathcurator://pathway/1755290377619</link>
     <atom:link href="pathcurator://pathway/1755290377619/rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 15 Aug 2025 21:44:23 GMT</lastBuildDate>
-    <pubDate>Fri, 15 Aug 2025 21:01:27 GMT</pubDate>
+    <lastBuildDate>Sat, 06 Sep 2025 00:46:06 GMT</lastBuildDate>
+    <pubDate>Sun, 24 Aug 2025 18:35:14 GMT</pubDate>
     <generator>Path Curator Extension</generator>
     <language>en-US</language>
     <managingEditor>Unknown</managingEditor>
-    <webMaster>Unknown</webMaster>
+    <webMaster>itr8tech</webMaster>
     <item>
-        <title>Accessibility | MDN</title>
-        <description><![CDATA[<p>Accessibility (often abbreviated to A11y — as in, &quot;a&quot;, then 11 characters, and then &quot;y&quot;) in web development means enabling as many people as possible to use websites, even when those people&#039;s abilities are limited in some way.</p><p><strong>Context:</strong> Not fan of describing accessibility solely in terms of peoples limitations but this resource is fantastic and vital to understanding how to apply assistive technologies in many different ways.</p><p><strong>Step Objective:</strong> As if general principles of accessibility weren&#039;t complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.</p>]]></description>
-        <link>https://developer.mozilla.org/en-US/docs/Web/Accessibility</link>
-        <guid isPermaLink="false">1755290377619-bookmark-0-0</guid>
-        <pubDate>Mon, 11 Aug 2025 17:44:23 GMT</pubDate>
+        <title>I Need an Accessible Hero | Access Armada</title>
+        <description><![CDATA[<p>An accessible hero image experience is important in serving your entire user base and avoiding obstacles before users get to know you better.</p><p><strong>Context:</strong> I see this far too often. This article doesn&#039;t touch on the performance impacts of unoptimized images used for these purposes but the principles it does touch on are all very important considerations.</p><p><strong>Step Objective:</strong> As if general principles of accessibility weren&#039;t complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.</p>]]></description>
+        <link>https://www.accessarmada.com/blog/i-need-an-accessible-hero/</link>
+        <guid isPermaLink="false">1755290377619-bookmark-0-4</guid>
+        <pubDate>Tue, 02 Sep 2025 00:46:06 GMT</pubDate>
         <category>read</category>
         <pathwayUrl>pathcurator://pathway/1755290377619</pathwayUrl>
         <stepName>World Wide Web</stepName>
         <stepUrl>pathcurator://pathway/1755290377619/step/0</stepUrl>
         <required>Required</required>
         <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Home - The A11Y Project</title>
+        <description><![CDATA[<p>The A11Y Project is a community-driven effort to make digital accessibility easier.</p><p><strong>Context:</strong> Another great authoritative place to go to get comprehensive info on how to apply the standards and exploring the people in the community.</p><p><strong>Step Objective:</strong> As if general principles of accessibility weren&#039;t complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.</p>]]></description>
+        <link>https://www.a11yproject.com/</link>
+        <guid isPermaLink="false">1755290377619-bookmark-0-3</guid>
+        <pubDate>Mon, 01 Sep 2025 23:46:06 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1755290377619</pathwayUrl>
+        <stepName>World Wide Web</stepName>
+        <stepUrl>pathcurator://pathway/1755290377619/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Semantics - Glossary | MDN</title>
+        <description><![CDATA[<p>In programming, Semantics refers to the meaning of a piece of code — for example &quot;what effect does running that line of JavaScript have?&quot;, or &quot;what purpose or role does that HTML element have&quot; (rather than &quot;what does it look like?&quot;.)</p><p><strong>Context:</strong> Knowing this what markup to use for content is a vital skill that is fundamental to good accessibility.</p><p><strong>Step Objective:</strong> As if general principles of accessibility weren&#039;t complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.</p>]]></description>
+        <link>https://developer.mozilla.org/en-US/docs/Glossary/Semantics</link>
+        <guid isPermaLink="false">1755290377619-bookmark-0-2</guid>
+        <pubDate>Mon, 01 Sep 2025 22:46:06 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1755290377619</pathwayUrl>
+        <stepName>World Wide Web</stepName>
+        <stepUrl>pathcurator://pathway/1755290377619/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Accessibility | MDN</title>
+        <description><![CDATA[<p>Accessibility (often abbreviated to A11y — as in, &quot;a&quot;, then 11 characters, and then &quot;y&quot;) in web development means enabling as many people as possible to use websites, even when those people&#039;s abilities are limited in some way.</p><p><strong>Context:</strong> Not fan of describing accessibility solely in terms of peoples limitations but this resource is fantastic and vital to understanding how to apply assistive technologies in many different ways.</p><p><strong>Step Objective:</strong> As if general principles of accessibility weren&#039;t complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.</p>]]></description>
+        <link>https://developer.mozilla.org/en-US/docs/Web/Accessibility</link>
+        <guid isPermaLink="false">1755290377619-bookmark-0-1</guid>
+        <pubDate>Mon, 01 Sep 2025 21:46:06 GMT</pubDate>
+        <category>read</category>
+        <pathwayUrl>pathcurator://pathway/1755290377619</pathwayUrl>
+        <stepName>World Wide Web</stepName>
+        <stepUrl>pathcurator://pathway/1755290377619/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>read</contentType>
+    </item>
+    <item>
+        <title>Introduction to Web Accessibility</title>
+        <description><![CDATA[<p>When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.
+
+Making the web accessible benefits individuals, businesses, and society. International web standards define what is needed for accessibility.</p><p><strong>Context:</strong> One of those fundamental places that defines the standards.</p><p><strong>Step Objective:</strong> As if general principles of accessibility weren&#039;t complex enough, applying them to the technological marvel that is the internet adds multiple new dimensions to consider. From basic technical connections between servers to interaction design, the web can either hinder or dramatically increase access to the rich information that everyone has a right to be able to access with comfort.</p>]]></description>
+        <link>https://www.w3.org/WAI/fundamentals/accessibility-intro/</link>
+        <guid isPermaLink="false">1755290377619-bookmark-0-0</guid>
+        <pubDate>Mon, 01 Sep 2025 20:46:06 GMT</pubDate>
+        <category>Read</category>
+        <pathwayUrl>pathcurator://pathway/1755290377619</pathwayUrl>
+        <stepName>World Wide Web</stepName>
+        <stepUrl>pathcurator://pathway/1755290377619/step/0</stepUrl>
+        <required>Required</required>
+        <contentType>Read</contentType>
     </item>
 </channel>
 </rss>
